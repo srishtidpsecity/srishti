@@ -59,7 +59,7 @@ export default function EventModal({ event, onClose }) {
         style={{ backgroundColor: '#0a0a0a' }}
       >
         <div className="inner-rim" />
-        
+
         {/* Modal Header */}
         <div className="mb-6 relative z-10 flex items-start justify-between gap-4">
           <div className="flex-1">
@@ -75,7 +75,7 @@ export default function EventModal({ event, onClose }) {
               {event.name}
             </h2>
           </div>
-          
+
           {/* Close Button */}
           <button
             onClick={onClose}
@@ -93,11 +93,10 @@ export default function EventModal({ event, onClose }) {
               <button
                 key={tab.id}
                 onClick={() => setActiveTab(tab.id)}
-                className={`flex items-center space-x-2 py-2.5 px-3 border-b-2 transition-all focus:outline-none ${
-                  isActive
+                className={`flex items-center space-x-2 py-2.5 px-3 border-b-2 transition-all focus:outline-none ${isActive
                     ? 'border-[#00f3ff] text-white font-bold bg-transparent'
                     : 'border-transparent text-white hover:text-white hover:bg-white/[0.02]'
-                }`}
+                  }`}
               >
                 {tab.icon}
                 <span>{tab.label}</span>
@@ -122,9 +121,9 @@ export default function EventModal({ event, onClose }) {
                 <div className="space-y-6">
                   {event.image && (
                     <div className="w-full rounded-lg overflow-hidden border border-white/10 mb-4 flex justify-center bg-white/[0.02]">
-                      <img 
-                        src={event.image} 
-                        alt={event.name} 
+                      <img
+                        src={event.image}
+                        alt={event.name}
                         className="w-full h-auto max-h-80 object-contain"
                       />
                     </div>
@@ -144,7 +143,7 @@ export default function EventModal({ event, onClose }) {
                         <span className="font-raleway text-xs font-semibold text-white">{event.eligibility}</span>
                       </div>
                     </div>
-                    
+
                     <div className="rounded-lg border border-white/5 p-4 bg-white/[0.01] flex items-start space-x-3">
                       <Clock className="w-5 h-5 text-[#06b6d4] mt-0.5" />
                       <div>
@@ -203,21 +202,6 @@ export default function EventModal({ event, onClose }) {
                         </a>
                       </div>
                     )}
-<<<<<<< HEAD
-
-                    {event.coordinator.email !== 'Not Specified' && (
-                      <div className="flex items-center space-x-3">
-                        <span className="text-white w-24">Email ID:</span>
-                        <a
-                          href={`mailto:${event.coordinator.email}`}
-                          className="text-[#06b6d4] hover:underline font-semibold"
-                        >
-                          {event.coordinator.email}
-                        </a>
-                      </div>
-                    )}
-=======
->>>>>>> 134a593ac9b1d05f72f88307f346a21494105a47
                   </div>
 
                   <div className="p-3 bg-[#06b6d4]/5 border border-[#06b6d4]/10 rounded text-[11px] text-white flex gap-2.5">
