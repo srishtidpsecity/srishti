@@ -32,7 +32,6 @@ export default function EventModal({ event, onClose }) {
       l.includes('eligibility:') ||
       l.includes('coordinator') ||
       l.includes('contact:') ||
-      l.includes('email id:') ||
       l.includes('register now')
     );
   }) : [];
@@ -201,18 +200,6 @@ export default function EventModal({ event, onClose }) {
                           className="text-[#06b6d4] hover:underline font-semibold"
                         >
                           {event.coordinator.phone}
-                        </a>
-                      </div>
-                    )}
-
-                    {event.coordinator.email !== 'Not Specified' && (
-                      <div className="flex items-center space-x-3">
-                        <span className="text-[#e0ffff]/50 w-24">Email ID:</span>
-                        <a
-                          href={`mailto:${event.coordinator.email}`}
-                          className="text-[#06b6d4] hover:underline font-semibold"
-                        >
-                          {event.coordinator.email}
                         </a>
                       </div>
                     )}
