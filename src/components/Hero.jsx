@@ -74,7 +74,7 @@ export default function Hero() {
           className="inline-flex items-center space-x-2 px-4 py-1.5 rounded-full glowing-glass bg-white/[0.02] border-[#06b6d4]/20 mb-10"
         >
           <Sparkles className="w-4 h-4 text-[#06b6d4]" />
-          <span className="font-mono text-xs uppercase tracking-[0.2em] text-[#e0ffff]/90">
+          <span className="font-mono text-xs uppercase tracking-[0.2em] text-white">
             Delhi Public School Electronic City Presents
           </span>
         </motion.div>
@@ -94,7 +94,7 @@ export default function Hero() {
           initial={{ opacity: 0 }}
           animate={{ opacity: 1 }}
           transition={{ duration: 1, delay: 0.4 }}
-          className="font-cinzel text-xl md:text-3xl tracking-[0.4em] text-[#e0ffff]/80 uppercase mb-10"
+          className="font-cinzel text-xl md:text-3xl tracking-[0.4em] text-white uppercase mb-10"
         >
           Season 6.0
         </motion.div>
@@ -118,13 +118,13 @@ export default function Hero() {
         >
           <div className="flex items-center space-x-3 px-6 py-3 rounded-lg glowing-glass w-full md:w-auto justify-center bg-white/[0.01]">
             <Calendar className="w-5 h-5 text-[#06b6d4]" />
-            <span className="font-mono text-sm tracking-wide text-[#e0ffff]/90">
+            <span className="font-mono text-sm tracking-wide text-white">
               Friday, 14 August 2026 (8:30 AM)
             </span>
           </div>
           <div className="flex items-center space-x-3 px-6 py-3 rounded-lg glowing-glass w-full md:w-auto justify-center bg-white/[0.01]">
             <MapPin className="w-5 h-5 text-[#06b6d4]" />
-            <span className="font-mono text-sm tracking-wide text-[#e0ffff]/90">
+            <span className="font-mono text-sm tracking-wide text-white">
               Delhi Public School Electronic City, Bengaluru
             </span>
           </div>
@@ -147,7 +147,7 @@ export default function Hero() {
               <span className="font-mono text-3xl md:text-5xl font-bold text-[#fff] tracking-wide">
                 {String(item.value).padStart(2, '0')}
               </span>
-              <span className="font-cinzel text-[10px] md:text-xs uppercase tracking-wider text-[#06b6d4]/85 mt-2">
+              <span className="font-cinzel text-[10px] md:text-xs uppercase tracking-wider text-white mt-2">
                 {item.label}
               </span>
             </div>
@@ -175,9 +175,9 @@ export default function Hero() {
           initial={{ opacity: 0 }}
           animate={{ opacity: 1 }}
           transition={{ delay: 1.2, duration: 0.8 }}
-          className="cursor-pointer text-[#06b6d4]/70 hover:text-[#06b6d4] transition-colors focus:outline-none flex flex-col items-center gap-2 mt-4"
+          className="cursor-pointer text-white hover:text-[#06b6d4] transition-colors focus:outline-none flex flex-col items-center gap-2 mt-4"
         >
-          <span className="font-mono text-[10px] uppercase tracking-[0.3em] text-[#e0ffff]/60">
+          <span className="font-mono text-[10px] uppercase tracking-[0.3em] text-white">
             Scroll to discover
           </span>
           <ChevronDown className="w-6 h-6 animate-bounce" />

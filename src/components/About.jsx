@@ -71,13 +71,13 @@ export default function About() {
               </h2>
             </div>
 
-            <div className="font-garamond text-lg md:text-2xl text-[#e0ffff]/90 leading-loose space-y-8 tracking-wide">
+            <div className="font-garamond text-lg md:text-2xl text-white leading-loose space-y-8 tracking-wide">
               <p>Dear Principal,</p>
               <p>Greetings from DPS Electronic City!</p>
               <p>When the curtains rise, destinies take the stage. When the spotlight awakens, brilliance finds its voice. And when imagination takes flight, masterpieces are born.</p>
               <p>With immense pride and heartfelt delight, Delhi Public School Electronic City cordially invites your esteemed institution to grace the grand celebration of artistry, innovation, and youthful excellence at the Inter-School Fest – Srishti: A Splash of Creativity 2026.</p>
               <p>Srishti 6.0 is an ode to the spirit of creation; a celebration where passion finds its purpose, curiosity kindles innovation, and excellence is not merely pursued but magnificently embodied. It is a vibrant confluence of artists, performers, thinkers, and dreamers who dare to reimagine the ordinary and transform it into the extraordinary. So, prepare to be a part of the journey into an enchanting realm where imagination transcends boundaries, dreams bloom into reality, and every heartbeat echoes with the rhythm of creativity, collaboration, and boundless enthusiasm. Every applause shall celebrate perseverance, every smile shall reflect accomplishment, and every moment shall become a cherished memory etched forever in the hearts of those who dare to dream. Together, let us transform Srishti: A Splash of Creativity 2026 into a timeless symphony of creativity. </p>
-              <p>Srishti 6.0 is on Friday, 14 August 2026, from 8:30 a.m. onwards, at Delhi Public School Electronic City, Bengaluru. Enclosed with this invitation is the E-Brochure, offering a glimpse into the array of events. Each event description is accompanied by its respective registration link, conveniently provided at the end, to facilitate a seamless registration process. Schools should email the screenshot of the payment made and the registration details (a copy is attached) to <h6 className="font-garamond text-lg md:text-2xl text-[#00f3ff]/90 leading-loose space-y-8 tracking-wide">srishti@dpsecity.com</h6></p>
+              <p>Srishti 6.0 is on Friday, 14 August 2026, from 8:30 a.m. onwards, at Delhi Public School Electronic City, Bengaluru. Enclosed with this invitation is the E-Brochure, offering a glimpse into the array of events. Each event description is accompanied by its respective registration link, conveniently provided at the end, to facilitate a seamless registration process. Schools should email the screenshot of the payment made and the registration details (a copy is attached) to <h6 className="font-garamond text-lg md:text-2xl text-white leading-loose space-y-8 tracking-wide">srishti@dpsecity.com</h6></p>
               <p>Let's embark on this adventure together and paint the canvas of memories that will last a lifetime. With anticipation and excitement, we look forward to an overwhelming response.</p>
             </div>
 
@@ -111,7 +111,7 @@ export default function About() {
                   {generalRules.map((rule, idx) => (
                     <li key={idx} className="flex items-start space-x-4">
                       <div className="flex-shrink-0 mt-1">{rule.icon}</div>
-                      <span className="font-raleway text-sm md:text-base leading-relaxed text-[#e0ffff]/80">
+                      <span className="font-raleway text-sm md:text-base leading-relaxed text-white">
                         {rule.text}
                       </span>
                     </li>
@@ -129,15 +129,15 @@ export default function About() {
                 </h3>
                 <div className="space-y-3 font-mono text-sm">
                   <div className="flex justify-between border-b border-[#00f3ff]/10 pb-2">
-                    <span className="text-[#e0ffff]/60">Registration Deadline:</span>
+                    <span className="text-white">Registration Deadline:</span>
                     <span className="text-[#00f3ff] font-semibold">31 July 2026</span>
                   </div>
                   <div className="flex justify-between border-b border-[#00f3ff]/10 pb-2">
-                    <span className="text-[#e0ffff]/60">Reporting & Confirmation:</span>
+                    <span className="text-white">Reporting & Confirmation:</span>
                     <span>14 August 2026 (8:30 AM)</span>
                   </div>
                   <div className="flex justify-between">
-                    <span className="text-[#e0ffff]/60">Events Commencement:</span>
+                    <span className="text-white">Events Commencement:</span>
                     <span>14 August 2026 (9:00 AM)</span>
                   </div>
                 </div>

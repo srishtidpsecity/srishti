@@ -4,7 +4,7 @@ import dpsLogo from '../assets/dps_logo.png';
 
 export default function Footer() {
   return (
-    <footer id="contact" className="relative bg-[#030303] text-[#e0ffff]/80 pt-20 pb-8 border-t border-cyan-500/10">
+    <footer id="contact" className="relative bg-[#030303] text-white pt-20 pb-8 border-t border-cyan-500/10">
       {/* Background ambient lighting */}
       <div className="absolute bottom-0 left-0 w-full h-80 bg-gradient-to-t from-cyan-500/[0.02] to-transparent pointer-events-none" />
 
@@ -23,7 +23,7 @@ export default function Footer() {
               <span className="font-cinzel text-xl font-bold text-white tracking-widest">SRISHTI 6.0</span>
             </div>
           </div>
-          <p className="font-raleway text-xs leading-relaxed text-[#e0ffff]/65 max-w-sm">
+          <p className="font-raleway text-xs leading-relaxed text-white max-w-sm">
             Srishti Season 6.0 is the premier inter-school festival hosted by Delhi Public School Electronic City, celebrating creative brilliance, talent, and mathematical ingenuity.
           </p>
           <div className="space-y-3 font-mono text-xs">
@@ -68,8 +68,8 @@ export default function Footer() {
       </div>
 
       {/* Copyright branding details */}
-      <div className="container-width relative z-10 pt-8 flex flex-col md:flex-row justify-between items-center text-center gap-4 text-[10px] font-mono text-[#e0ffff]/40">
-        <div className="text-center font-mono text-xs text-[#e0ffff]/40">
+      <div className="container-width relative z-10 pt-8 flex flex-col md:flex-row justify-between items-center text-center gap-4 text-[10px] font-mono text-white">
+        <div className="text-center font-mono text-xs text-white">
           &copy; {new Date().getFullYear()} Delhi Public School Electronic City, Bengaluru. All Rights Reserved.
         </div>
       </div>

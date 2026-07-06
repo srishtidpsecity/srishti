@@ -99,7 +99,7 @@ export default function Registration() {
                       <h4 className="font-cinzel text-sm font-semibold text-[#fff] tracking-wide">
                         {step.title}
                       </h4>
-                      <p className="font-raleway text-xs text-[#e0ffff]/70 mt-1 leading-relaxed">
+                      <p className="font-raleway text-xs text-white mt-1 leading-relaxed">
                         {step.desc}
                       </p>
                     </div>
@@ -120,11 +120,11 @@ export default function Registration() {
                   <span className="font-mono text-xs uppercase tracking-[0.2em] font-bold">CANARA BANK PAYMENT DETAILS</span>
                 </div>
 
-                <div className="space-y-6 font-mono text-xs text-[#e0ffff]/80">
+                <div className="space-y-6 font-mono text-xs text-white">
                   {/* Account Name */}
                   <div className="flex justify-between items-center border-b border-cyan-500/10 pb-2">
                     <div>
-                      <span className="text-white/40 block text-[9px] uppercase tracking-wider">Account Name</span>
+                      <span className="text-white block text-[9px] uppercase tracking-wider">Account Name</span>
                       <span className="text-sm font-semibold text-white">{bankDetails.accountName}</span>
                     </div>
                     <button 
@@ -138,7 +138,7 @@ export default function Registration() {
                   {/* Account Number */}
                   <div className="flex justify-between items-center border-b border-cyan-500/10 pb-2">
                     <div>
-                      <span className="text-white/40 block text-[9px] uppercase tracking-wider">Account Number</span>
+                      <span className="text-white block text-[9px] uppercase tracking-wider">Account Number</span>
                       <span className="text-base font-semibold text-white tracking-widest">{bankDetails.accountNo}</span>
                     </div>
                     <button 
@@ -152,7 +152,7 @@ export default function Registration() {
                   {/* IFSC Code */}
                   <div className="flex justify-between items-center border-b border-cyan-500/10 pb-2">
                     <div>
-                      <span className="text-white/40 block text-[9px] uppercase tracking-wider">IFSC Code</span>
+                      <span className="text-white block text-[9px] uppercase tracking-wider">IFSC Code</span>
                       <span className="text-sm font-semibold text-[#06b6d4] tracking-widest">{bankDetails.ifsc}</span>
                     </div>
                     <button 
@@ -166,11 +166,11 @@ export default function Registration() {
                   {/* Account Type & Branch */}
                   <div className="grid grid-cols-2 gap-4">
                     <div>
-                      <span className="text-white/40 block text-[9px] uppercase tracking-wider">Account Type</span>
+                      <span className="text-white block text-[9px] uppercase tracking-wider">Account Type</span>
                       <span className="text-xs text-white">{bankDetails.accountType}</span>
                     </div>
                     <div>
-                      <span className="text-white/40 block text-[9px] uppercase tracking-wider">Branch</span>
+                      <span className="text-white block text-[9px] uppercase tracking-wider">Branch</span>
                       <span className="text-xs text-white">{bankDetails.branch}</span>
                     </div>
                   </div>
@@ -182,7 +182,7 @@ export default function Registration() {
             <div className="rounded-[1rem] glowing-glass p-4 border border-cyan-500/10 text-xs flex items-start gap-3">
               <div className="inner-rim" />
               <Mail className="w-5 h-5 text-[#06b6d4] mt-0.5" />
-              <div className="font-raleway text-[#e0ffff]/75 relative z-10">
+              <div className="font-raleway text-white relative z-10">
                 <strong>Submission Email:</strong> Schools should send a confirmation email to <a href={`mailto:srishti@dpsecity.com`} className="text-[#06b6d4] underline font-mono">srishti@dpsecity.com</a>, including a bona fide letter with the registration details, the particulars of all participants in different events and a screenshot of the payment made.
               </div>
             </div>
@@ -204,7 +204,7 @@ export default function Registration() {
                 <div className="space-y-6 flex-grow flex flex-col">
                   {/* Events Checklist Selection */}
                   <div className="space-y-2 flex-grow flex flex-col min-h-0">
-                    <label className="block font-mono text-xs uppercase tracking-wider text-[#e0ffff]/70 mb-2 shrink-0">Select Events to Calculate Fee</label>
+                    <label className="block font-mono text-xs uppercase tracking-wider text-white mb-2 shrink-0">Select Events to Calculate Fee</label>
                     <div className="flex-grow overflow-y-auto border border-cyan-500/10 rounded bg-[#050505] p-3 space-y-2 custom-scrollbar min-h-[300px]">
                       {eventsData.map((ev) => {
                         const isSelected = selectedEvents.includes(ev.id);
@@ -216,7 +216,7 @@ export default function Registration() {
                             className={`flex items-center justify-between p-2 rounded cursor-pointer border transition-all ${
                               isSelected
                                 ? 'bg-cyan-500/10 border-cyan-500/50 text-white'
-                                : 'border-transparent text-[#e0ffff]/65 hover:bg-white/5 hover:text-white'
+                                : 'border-transparent text-white hover:bg-white/5 hover:text-white'
                             }`}
                           >
                             <div className="flex items-center space-x-3 flex-1 min-w-0 pr-2">
@@ -236,7 +236,7 @@ export default function Registration() {
 
                   {/* Summary */}
                   <div className="border-t border-cyan-500/10 pt-4 space-y-4 shrink-0">
-                    <div className="flex justify-between font-mono text-xs text-[#e0ffff]/60">
+                    <div className="flex justify-between font-mono text-xs text-white">
                       <span>Events Selected:</span>
                       <span>{selectedEvents.length}</span>
                     </div>

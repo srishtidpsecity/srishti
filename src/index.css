@@ -34,8 +34,9 @@ html, body, #root {
   width: 100%;
   min-height: 100vh;
   background-color: #030303;
-  color: #f3f4f6;
+  color: #ffffff;
   font-family: 'Raleway', sans-serif;
+  font-size: 110%;
   -webkit-font-smoothing: antialiased;
   text-rendering: geometricPrecision;
   scroll-behavior: smooth;

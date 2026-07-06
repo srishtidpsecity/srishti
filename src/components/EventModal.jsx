@@ -80,7 +80,7 @@ export default function EventModal({ event, onClose }) {
           {/* Close Button */}
           <button
             onClick={onClose}
-            className="p-2 text-[#e0ffff]/65 hover:text-[#00f3ff] rounded-full hover:bg-white/10 transition-colors focus:outline-none shrink-0 mt-[-0.5rem] mr-[-0.5rem]"
+            className="p-2 text-white hover:text-[#00f3ff] rounded-full hover:bg-white/10 transition-colors focus:outline-none shrink-0 mt-[-0.5rem] mr-[-0.5rem]"
           >
             <X className="w-6 h-6" />
           </button>
@@ -97,7 +97,7 @@ export default function EventModal({ event, onClose }) {
                 className={`flex items-center space-x-2 py-2.5 px-3 border-b-2 transition-all focus:outline-none ${
                   isActive
                     ? 'border-[#00f3ff] text-white font-bold bg-transparent'
-                    : 'border-transparent text-[#e0ffff]/50 hover:text-white hover:bg-white/[0.02]'
+                    : 'border-transparent text-white hover:text-white hover:bg-white/[0.02]'
                 }`}
               >
                 {tab.icon}
@@ -108,7 +108,7 @@ export default function EventModal({ event, onClose }) {
         </div>
 
         {/* Tab Content Display Area */}
-        <div className="flex-grow overflow-y-auto min-h-0 pr-2 mb-8 custom-scrollbar text-sm md:text-base leading-loose text-[#e0ffff]/85 tracking-wide relative z-10">
+        <div className="flex-grow overflow-y-auto min-h-0 pr-2 mb-8 custom-scrollbar text-sm md:text-base leading-loose text-white tracking-wide relative z-10">
           <AnimatePresence mode="wait">
             <motion.div
               key={activeTab}
@@ -132,7 +132,7 @@ export default function EventModal({ event, onClose }) {
                   )}
                   <div>
                     <h4 className="font-cinzel text-[#fff] font-bold mb-2">About the Event</h4>
-                    <p className="font-raleway text-sm text-[#e0ffff]/75 whitespace-pre-line leading-relaxed">
+                    <p className="font-raleway text-sm text-white whitespace-pre-line leading-relaxed">
                       {event.description}
                     </p>
                   </div>
@@ -141,7 +141,7 @@ export default function EventModal({ event, onClose }) {
                     <div className="rounded-lg border border-white/5 p-4 bg-white/[0.01] flex items-start space-x-3">
                       <Calendar className="w-5 h-5 text-[#06b6d4] mt-0.5" />
                       <div>
-                        <span className="text-[10px] text-white/40 uppercase tracking-wide block font-mono">Eligibility Criteria</span>
+                        <span className="text-[10px] text-white uppercase tracking-wide block font-mono">Eligibility Criteria</span>
                         <span className="font-raleway text-xs font-semibold text-white">{event.eligibility}</span>
                       </div>
                     </div>
@@ -149,7 +149,7 @@ export default function EventModal({ event, onClose }) {
                     <div className="rounded-lg border border-white/5 p-4 bg-white/[0.01] flex items-start space-x-3">
                       <Clock className="w-5 h-5 text-[#06b6d4] mt-0.5" />
                       <div>
-                        <span className="text-[10px] text-white/40 uppercase tracking-wide block font-mono">Competition Date</span>
+                        <span className="text-[10px] text-white uppercase tracking-wide block font-mono">Competition Date</span>
                         <span className="font-raleway text-xs font-semibold text-white">14 August 2026</span>
                       </div>
                     </div>
@@ -164,13 +164,13 @@ export default function EventModal({ event, onClose }) {
                     <Award className="w-4 h-4 text-[#06b6d4]" /> Detailed Rules
                   </h4>
                   {filteredGuidelines.length > 0 ? (
-                    <ul className="list-disc pl-5 space-y-4 text-sm md:text-base text-[#e0ffff]/85">
+                    <ul className="list-disc pl-5 space-y-4 text-sm md:text-base text-white">
                       {filteredGuidelines.map((g, i) => (
                         <li key={i} className="leading-relaxed">{g}</li>
                       ))}
                     </ul>
                   ) : (
-                    <div className="text-center py-6 text-[#e0ffff]/40 font-mono text-xs italic">
+                    <div className="text-center py-6 text-white font-mono text-xs italic">
                       Refer to general instructions for guidelines on this event.
                     </div>
                   )}
@@ -182,20 +182,20 @@ export default function EventModal({ event, onClose }) {
                 <div className="space-y-5">
                   <div>
                     <h4 className="font-cinzel text-[#fff] font-bold mb-2">Teacher In-Charge Coordinator</h4>
-                    <p className="font-raleway text-xs text-[#e0ffff]/65 leading-relaxed mb-4">
+                    <p className="font-raleway text-xs text-white leading-relaxed mb-4">
                       Please reach out directly to the following coordinator for inquiries regarding rules, format, or timing schedules of this competition.
                     </p>
                   </div>
 
                   <div className="rounded-lg border border-cyan-500/10 p-5 bg-white/[0.02] space-y-4 text-xs font-mono">
                     <div className="flex items-center space-x-3 border-b border-white/5 pb-2">
-                      <span className="text-[#e0ffff]/50 w-24">Coordinator:</span>
+                      <span className="text-white w-24">Coordinator:</span>
                       <span className="text-white font-semibold">{event.coordinator.name}</span>
                     </div>
 
                     {event.coordinator.phone !== 'Not Specified' && (
                       <div className="flex items-center space-x-3 border-b border-white/5 pb-2">
-                        <span className="text-[#e0ffff]/50 w-24">Phone:</span>
+                        <span className="text-white w-24">Phone:</span>
                         <a
                           href={`tel:${event.coordinator.phone}`}
                           className="text-[#06b6d4] hover:underline font-semibold"
@@ -207,7 +207,7 @@ export default function EventModal({ event, onClose }) {
 
                     {event.coordinator.email !== 'Not Specified' && (
                       <div className="flex items-center space-x-3">
-                        <span className="text-[#e0ffff]/50 w-24">Email ID:</span>
+                        <span className="text-white w-24">Email ID:</span>
                         <a
                           href={`mailto:${event.coordinator.email}`}
                           className="text-[#06b6d4] hover:underline font-semibold"
@@ -218,7 +218,7 @@ export default function EventModal({ event, onClose }) {
                     )}
                   </div>
 
-                  <div className="p-3 bg-[#06b6d4]/5 border border-[#06b6d4]/10 rounded text-[11px] text-[#e0ffff]/75 flex gap-2.5">
+                  <div className="p-3 bg-[#06b6d4]/5 border border-[#06b6d4]/10 rounded text-[11px] text-white flex gap-2.5">
                     <ShieldAlert className="w-4 h-4 text-[#06b6d4] shrink-0 mt-0.5" />
                     <span>Please respect communication timings. Call coordinators only between <strong>3:00 PM - 5:00 PM</strong>.</span>
                   </div>
@@ -230,25 +230,25 @@ export default function EventModal({ event, onClose }) {
                 <div className="space-y-6">
                   <div className="space-y-2">
                     <h4 className="font-cinzel text-white font-bold">Challan Summary</h4>
-                    <p className="font-raleway text-xs text-[#e0ffff]/65">
+                    <p className="font-raleway text-xs text-white">
                       You can register your students or teams by completing the payment for this event and submitting details.
                     </p>
                   </div>
 
                   <div className="grid grid-cols-2 gap-4 border border-white/10 rounded-lg p-4 font-mono text-xs">
                     <div className="border-r border-white/10 pr-2">
-                      <span className="text-white/40 uppercase block text-[9px] mb-1">Registration Type</span>
+                      <span className="text-white uppercase block text-[9px] mb-1">Registration Type</span>
                       <span className="text-white font-semibold">{event.type} Event</span>
                     </div>
                     <div>
-                      <span className="text-white/40 uppercase block text-[9px] mb-1">Fee Amount</span>
+                      <span className="text-white uppercase block text-[9px] mb-1">Fee Amount</span>
                       <span className="text-[#06b6d4] font-bold text-sm">₹{price}/-</span>
                     </div>
                   </div>
 
                   <div className="space-y-4">
                     <h5 className="font-cinzel text-xs font-semibold text-white">Payment Checklist:</h5>
-                    <ul className="list-disc pl-5 space-y-1.5 text-xs text-[#e0ffff]/75">
+                    <ul className="list-disc pl-5 space-y-1.5 text-xs text-white">
                       <li>Pay ₹{price} online using Canara Bank payment details in the registration section.</li>
                       <li>Launch the official registration link and fill out the event submission form.</li>
                       <li>Mail a Bonafide letter containing names and payment receipt screenshot to the organizers.</li>
@@ -264,7 +264,7 @@ export default function EventModal({ event, onClose }) {
         <div className="flex flex-col sm:flex-row gap-4 items-center justify-end border-t border-white/10 pt-6 mt-auto relative z-10">
           <button
             onClick={onClose}
-            className="w-full sm:w-auto font-cinzel text-xs font-semibold tracking-wider text-[#e0ffff]/60 hover:text-white transition-colors py-2.5 px-6 hover:bg-white/5 rounded"
+            className="w-full sm:w-auto font-cinzel text-xs font-semibold tracking-wider text-white hover:text-white transition-colors py-2.5 px-6 hover:bg-white/5 rounded"
           >
             CLOSE DETAILS
           </button>

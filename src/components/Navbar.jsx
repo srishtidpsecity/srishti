@@ -55,7 +55,7 @@ export default function Navbar() {
             <span className="font-cinzel text-xl md:text-2xl font-bold tracking-widest text-[#fff] group-hover:text-[#00f3ff] group-hover:[text-shadow:0_0_15px_rgba(0,243,255,0.8)] transition-all duration-300">
               SRISHTI
             </span>
-            <span className="font-mono text-[9px] uppercase tracking-[0.35em] text-[#00f3ff]/85">
+            <span className="font-mono text-[9px] uppercase tracking-[0.35em] text-white">
               SEASON 6.0
             </span>
           </div>
@@ -68,7 +68,7 @@ export default function Navbar() {
               key={link.name}
               href={link.href}
               onClick={(e) => handleLinkClick(e, link.href)}
-              className="font-cinzel text-sm font-medium text-[#e0ffff]/75 hover:text-[#00f3ff] transition-colors relative py-1 group tracking-wider"
+              className="font-cinzel text-sm font-medium text-white hover:text-[#00f3ff] transition-colors relative py-1 group tracking-wider"
             >
               {link.name}
               <span className="absolute bottom-0 left-0 w-0 h-[1.5px] bg-[#00f3ff] transition-all duration-300 group-hover:w-full"></span>

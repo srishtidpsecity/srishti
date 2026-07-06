@@ -92,7 +92,7 @@ export default function EventsSection() {
           <h2 className="text-3xl md:text-5xl font-bold font-cinzel tracking-wider">
             Explore Competitions
           </h2>
-          <p className="font-garamond italic text-[#e0ffff]/60 text-sm md:text-base max-w-xl mx-auto">
+          <p className="font-garamond italic text-white text-sm md:text-base max-w-xl mx-auto">
             Choose from 25 disciplines spanning creative writing, languages, robotics, law, performing arts, and design.
           </p>
           <div className="w-16 h-[1.5px] bg-[#00f3ff] mx-auto mt-4" />
@@ -106,20 +106,20 @@ export default function EventsSection() {
             
             {/* Search Box */}
             <div className="relative w-full lg:w-96">
-              <Search className="absolute left-4 top-1/2 -translate-y-1/2 w-4 h-4 text-[#e0ffff]/40" />
+              <Search className="absolute left-4 top-1/2 -translate-y-1/2 w-4 h-4 text-white" />
               <input
                 type="text"
                 placeholder="Search events (e.g. debate, coding...)"
                 value={searchQuery}
                 onChange={(e) => setSearchQuery(e.target.value)}
-                className="w-full bg-[#050505] border border-cyan-500/15 hover:border-cyan-500/30 focus:border-[#00f3ff] focus:outline-none rounded-md py-3 pl-11 pr-4 font-raleway text-sm text-[#e0ffff] transition-colors placeholder:text-[#e0ffff]/35 shadow-inner"
+                className="w-full bg-[#050505] border border-cyan-500/15 hover:border-cyan-500/30 focus:border-[#00f3ff] focus:outline-none rounded-md py-3 pl-11 pr-4 font-raleway text-sm text-[#e0ffff] transition-colors placeholder:text-white shadow-inner"
               />
             </div>
 
             {/* Grade Eligibility Filter */}
             <div className="flex items-center space-x-3 w-full lg:w-auto justify-end">
               <Filter className="w-4 h-4 text-[#00f3ff] shrink-0" />
-              <span className="font-mono text-xs text-[#e0ffff]/60 uppercase whitespace-nowrap shrink-0">Grade:</span>
+              <span className="font-mono text-xs text-white uppercase whitespace-nowrap shrink-0">Grade:</span>
               <div className="flex flex-wrap gap-2 justify-end">
                 {['All', 'VI-VIII', 'IX-XII'].map((grade) => (
                   <button
@@ -128,7 +128,7 @@ export default function EventsSection() {
                     className={`px-4 py-1.5 rounded text-xs font-mono border transition-all ${
                       selectedGrade === grade
                         ? 'border-[#00f3ff] bg-[#00f3ff] text-[#050505] font-bold'
-                        : 'border-[#e0ffff]/10 hover:border-[#00f3ff]/40 text-[#e0ffff]/60 hover:text-[#e0ffff]'
+                        : 'border-[#e0ffff]/10 hover:border-[#00f3ff]/40 text-white hover:text-[#e0ffff]'
                     }`}
                   >
                     {grade === 'All' ? 'All Grades' : `Grades ${grade}`}
@@ -148,7 +148,7 @@ export default function EventsSection() {
               className={`px-5 py-2.5 rounded-full font-cinzel text-xs tracking-wider transition-all duration-300 ${
                 selectedCategory === cat
                   ? 'bg-[#06b6d4] text-[#050505] font-bold shadow-[0_4px_15px_rgba(6,182,212,0.4)] scale-[1.02] border border-[#e0ffff]'
-                  : 'bg-white/[0.02] border border-cyan-500/10 text-[#e0ffff]/75 hover:text-[#fff] hover:border-cyan-500/40'
+                  : 'bg-white/[0.02] border border-cyan-500/10 text-white hover:text-[#fff] hover:border-cyan-500/40'
               }`}
             >
               {cat}
@@ -200,13 +200,13 @@ export default function EventsSection() {
                     </h3>
 
                     {/* Stats Row */}
-                    <div className="flex items-center space-x-2 font-mono text-[10px] text-[#e0ffff]/50 mb-4 relative z-10">
-                      <Calendar className="w-3.5 h-3.5 text-[#06b6d4]/70" />
+                    <div className="flex items-center space-x-2 font-mono text-[10px] text-white mb-4 relative z-10">
+                      <Calendar className="w-3.5 h-3.5 text-white" />
                       <span>Eligibility: <strong>{event.eligibility}</strong></span>
                     </div>
 
                     {/* Excerpt */}
-                    <p className="font-raleway text-sm text-[#e0ffff]/65 leading-relaxed line-clamp-3 mb-6 flex-grow relative z-10">
+                    <p className="font-raleway text-sm text-white leading-relaxed line-clamp-3 mb-6 flex-grow relative z-10">
                       {event.description}
                     </p>
 
@@ -214,7 +214,7 @@ export default function EventsSection() {
                     <div className="w-full h-[1px] bg-white/5 my-2 relative z-10" />
 
                     {/* View Details CTA */}
-                    <div className="flex items-center text-[#06b6d4]/80 group-hover:text-[#00f3ff] font-cinzel text-xs font-semibold tracking-wider pt-2 mt-auto group-hover:gap-1.5 transition-all relative z-10">
+                    <div className="flex items-center text-white group-hover:text-[#00f3ff] font-cinzel text-xs font-semibold tracking-wider pt-2 mt-auto group-hover:gap-1.5 transition-all relative z-10">
                       <span>VIEW EVENT TABS</span>
                       <ArrowRight className="w-4 h-4 ml-1.5 transition-transform group-hover:translate-x-1" />
                     </div>
@@ -234,8 +234,8 @@ export default function EventsSection() {
           >
             <div className="inner-rim" />
             <div className="relative p-8">
-              <ShieldAlert className="w-12 h-12 text-[#00f3ff]/40 mx-auto mb-4" />
-              <p className="font-cinzel text-lg text-[#e0ffff]/75">No events found matching current criteria</p>
+              <ShieldAlert className="w-12 h-12 text-white mx-auto mb-4" />
+              <p className="font-cinzel text-lg text-white">No events found matching current criteria</p>
               <button
                 onClick={() => { setSearchQuery(''); setSelectedCategory('All'); setSelectedGrade('All'); }}
                 className="mt-4 font-mono text-xs text-[#00f3ff] hover:underline"
