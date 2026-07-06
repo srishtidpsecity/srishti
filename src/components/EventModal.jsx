@@ -32,7 +32,6 @@ export default function EventModal({ event, onClose }) {
       l.includes('eligibility:') ||
       l.includes('coordinator') ||
       l.includes('contact:') ||
-      l.includes('email id:') ||
       l.includes('register now')
     );
   }) : [];
@@ -204,6 +203,7 @@ export default function EventModal({ event, onClose }) {
                         </a>
                       </div>
                     )}
+<<<<<<< HEAD
 
                     {event.coordinator.email !== 'Not Specified' && (
                       <div className="flex items-center space-x-3">
@@ -216,6 +216,8 @@ export default function EventModal({ event, onClose }) {
                         </a>
                       </div>
                     )}
+=======
+>>>>>>> 134a593ac9b1d05f72f88307f346a21494105a47
                   </div>
 
                   <div className="p-3 bg-[#06b6d4]/5 border border-[#06b6d4]/10 rounded text-[11px] text-white flex gap-2.5">

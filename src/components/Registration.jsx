@@ -54,10 +54,6 @@ export default function Registration() {
       desc: "Individual events are Rs. 300/- each; group events are Rs. 750/- each. Pay via online bank transfer to Canara Bank."
     },
     {
-      title: "Submit Google Form",
-      desc: "Complete the registration form for your chosen events. The specific Google Form link for each event can be found inside its details popup by clicking the 'REGISTER FOR EVENT' button."
-    },
-    {
       title: "Email Bonafide & Proof",
       desc: "Email a Bonafide letter signed by your Principal with participant details and a payment screenshot to srishti@dpsecity.com."
     }
