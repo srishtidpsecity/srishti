@@ -1,0 +1,282 @@
+@tailwind base;
+@tailwind components;
+@tailwind utilities;
+
+/* CSS Variables and Theme Configuration */
+:root {
+  --background: 0 0% 3%;
+  --foreground: 180 30% 90%;
+  --card: 0 0% 5%;
+  --card-foreground: 180 30% 90%;
+  --primary: 190 100% 50%;
+  --primary-foreground: 0 0% 4%;
+  --secondary: 190 100% 10%;
+  --secondary-foreground: 180 30% 90%;
+  --border: 190 100% 50% / .12;
+  --radius: 0.75rem;
+
+  /* Category Specific Glow Tones (HSL) - Neon Colors */
+  --languages-glow: 290 100% 60%;   /* Neon Magenta */
+  --science-glow: 190 100% 50%;     /* Neon Cyan */
+  --arts-glow: 330 100% 60%;         /* Neon Pink */
+  --humanities-glow: 120 100% 50%;   /* Neon Green */
+}
+
+/* Global Reset & Base Elements */
+* {
+  box-sizing: border-box;
+  margin: 0;
+  padding: 0;
+  border-color: rgba(255, 255, 255, 0.08);
+}
+
+html, body, #root {
+  width: 100%;
+  min-height: 100vh;
+  background-color: #030303;
+  color: #f3f4f6;
+  font-family: 'Raleway', sans-serif;
+  -webkit-font-smoothing: antialiased;
+  text-rendering: geometricPrecision;
+  scroll-behavior: smooth;
+  overflow-x: hidden;
+}
+
+/* Typography Customizations */
+h1, h2, h3, h4, h5, h6 {
+  font-family: 'Cinzel', serif;
+  letter-spacing: 0.05em;
+  color: #fff;
+  text-shadow: 0 2px 4px rgba(0, 0, 0, 0.6);
+}
+
+.font-cinzel {
+  font-family: 'Cinzel', serif;
+}
+
+.font-cinzel-deco {
+  font-family: 'Cinzel Decorative', serif;
+}
+
+.font-raleway {
+  font-family: 'Raleway', sans-serif;
+}
+
+.font-garamond {
+  font-family: 'Cormorant Garamond', serif;
+}
+
+.font-mono {
+  font-family: 'JetBrains Mono', monospace;
+}
+
+/* Custom Scrollbar */
+::-webkit-scrollbar {
+  width: 6px;
+}
+
+::-webkit-scrollbar-track {
+  background: #050505;
+}
+
+::-webkit-scrollbar-thumb {
+  background: rgba(6, 182, 212, 0.2);
+  border-radius: 3px;
+  transition: all 0.3s;
+}
+
+::-webkit-scrollbar-thumb:hover {
+  background: rgba(6, 182, 212, 0.5);
+}
+
+/* Glowing Glass UI - Ported from Portfolio */
+.glowing-glass {
+  position: relative;
+  background: transparent;
+  backdrop-filter: blur(20px);
+  -webkit-backdrop-filter: blur(20px);
+  z-index: 1;
+}
+
+.glowing-glass::before {
+  content: "";
+  position: absolute;
+  inset: 0;
+  border-radius: inherit;
+  border: 1px solid transparent;
+  background: 
+    linear-gradient(rgba(5, 5, 5, 0.95), rgba(5, 5, 5, 0.95)) padding-box,
+    linear-gradient(45deg, #1e3a8a, #8b5cf6, #06b6d4, #1e3a8a) border-box;
+  background-size: 100% 100%, 300% 300%;
+  animation: glowMove 6s linear infinite;
+  z-index: -1;
+}
+
+.glowing-glass::after {
+  content: "";
+  position: absolute;
+  inset: 0;
+  border-radius: inherit;
+  background: linear-gradient(45deg, #1e3a8a, #8b5cf6, #06b6d4, #1e3a8a);
+  background-size: 300% 300%;
+  animation: glowMove 6s linear infinite;
+  z-index: -2;
+  filter: blur(12px);
+  opacity: 0.3;
+}
+
+@keyframes glowMove {
+  0% { background-position: 0% 50%; }
+  50% { background-position: 100% 50%; }
+  100% { background-position: 0% 50%; }
+}
+
+/* Ensure children sit above the glow */
+.glowing-glass > * {
+  position: relative;
+  z-index: 2;
+}
+
+/* realistic inner rim light */
+.inner-rim {
+  position: absolute;
+  inset: 0;
+  border-radius: inherit;
+  box-shadow: inset 0 0 15px rgba(255, 255, 255, 0.05), inset 0 1px 1px rgba(255,255,255,0.2);
+  pointer-events: none;
+  z-index: 10;
+}
+
+/* Glow Card Category Overrides */
+.glowing-glass.glow-card-languages::before {
+  background: 
+    linear-gradient(rgba(5, 5, 5, 0.95), rgba(5, 5, 5, 0.95)) padding-box,
+    linear-gradient(45deg, #4c0519, #c084fc, #ec4899, #4c0519) border-box;
+  background-size: 100% 100%, 300% 300%;
+}
+.glowing-glass.glow-card-languages::after {
+  background: linear-gradient(45deg, #4c0519, #c084fc, #ec4899, #4c0519);
+  background-size: 300% 300%;
+}
+.glowing-glass.glow-card-science::before {
+  background: 
+    linear-gradient(rgba(5, 5, 5, 0.95), rgba(5, 5, 5, 0.95)) padding-box,
+    linear-gradient(45deg, #0f172a, #06b6d4, #3b82f6, #0f172a) border-box;
+  background-size: 100% 100%, 300% 300%;
+}
+.glowing-glass.glow-card-science::after {
+  background: linear-gradient(45deg, #0f172a, #06b6d4, #3b82f6, #0f172a);
+  background-size: 300% 300%;
+}
+.glowing-glass.glow-card-arts::before {
+  background: 
+    linear-gradient(rgba(5, 5, 5, 0.95), rgba(5, 5, 5, 0.95)) padding-box,
+    linear-gradient(45deg, #500724, #f43f5e, #fda4af, #500724) border-box;
+  background-size: 100% 100%, 300% 300%;
+}
+.glowing-glass.glow-card-arts::after {
+  background: linear-gradient(45deg, #500724, #f43f5e, #fda4af, #500724);
+  background-size: 300% 300%;
+}
+.glowing-glass.glow-card-humanities::before {
+  background: 
+    linear-gradient(rgba(5, 5, 5, 0.95), rgba(5, 5, 5, 0.95)) padding-box,
+    linear-gradient(45deg, #022c22, #10b981, #34d399, #022c22) border-box;
+  background-size: 100% 100%, 300% 300%;
+}
+.glowing-glass.glow-card-humanities::after {
+  background: linear-gradient(45deg, #022c22, #10b981, #34d399, #022c22);
+  background-size: 300% 300%;
+}
+
+/* Gold Shimmer Text Effect */
+.shimmer-cyan-text {
+  background: linear-gradient(
+    90deg,
+    #e0ffff 0%,
+    #00f3ff 50%,
+    #e0ffff 100%
+  );
+  background-size: 200% auto;
+  -webkit-background-clip: text;
+  -webkit-text-fill-color: transparent;
+  animation: shimmer-sweep 5s linear infinite;
+  text-shadow: 0 0 15px rgba(0, 243, 255, 0.3);
+}
+
+@keyframes shimmer-sweep {
+  0% { background-position: -200% 0; }
+  100% { background-position: 200% 0; }
+}
+
+/* Custom Grid / Layout Utilities */
+.container-width {
+  width: 100%;
+  max-width: 1300px;
+  margin: 0 auto;
+  padding: 0 2rem;
+}
+
+/* Decorative Sparkle Divider */
+.sparkle-divider {
+  @apply relative flex justify-center items-center py-16 md:py-24;
+}
+.sparkle-divider::before,
+.sparkle-divider::after {
+  content: '';
+  flex: 1;
+  height: 1px;
+  background: linear-gradient(90deg, transparent, rgba(6, 182, 212, 0.2), transparent);
+}
+.sparkle-divider-icon {
+  margin: 0 1.5rem;
+  color: #06b6d4;
+  opacity: 0.75;
+  filter: drop-shadow(0 0 4px rgba(6, 182, 212, 0.4));
+}
+
+/* Glow Buttons */
+.glow-button {
+  background: #06b6d4;
+  color: #050505;
+  font-family: 'Cinzel', serif;
+  font-weight: 700;
+  letter-spacing: 0.1em;
+  transition: all 0.3s cubic-bezier(0.16, 1, 0.3, 1);
+  box-shadow: 0 0 15px rgba(6, 182, 212, 0.5), inset 0 0 8px rgba(255, 255, 255, 0.4);
+  border: 1px solid #e0ffff;
+}
+
+.glow-button:hover {
+  transform: scale(1.03) translateY(-2px);
+  box-shadow: 0 0 25px rgba(6, 182, 212, 0.8), 0 0 40px rgba(6, 182, 212, 0.4), inset 0 0 12px rgba(255, 255, 255, 0.6);
+  background: #22d3ee;
+}
+
+.glow-button-outline {
+  border: 2px solid rgba(6, 182, 212, 0.7);
+  color: #06b6d4;
+  font-family: 'Cinzel', serif;
+  font-weight: 600;
+  letter-spacing: 0.1em;
+  background: transparent;
+  transition: all 0.3s cubic-bezier(0.16, 1, 0.3, 1);
+  box-shadow: 0 0 8px rgba(6, 182, 212, 0.2), inset 0 0 4px rgba(6, 182, 212, 0.2);
+  text-shadow: 0 0 6px rgba(6, 182, 212, 0.5);
+}
+
+.glow-button-outline:hover {
+  background: rgba(6, 182, 212, 0.15);
+  border-color: #06b6d4;
+  color: #fff;
+  transform: translateY(-1px);
+  box-shadow: 0 0 20px rgba(6, 182, 212, 0.6), inset 0 0 12px rgba(6, 182, 212, 0.3);
+  text-shadow: 0 0 8px #fff;
+}
+
+/* Responsive adjustments */
+@media (max-width: 768px) {
+  .container-width {
+    padding: 0 1.25rem;
+  }
+}

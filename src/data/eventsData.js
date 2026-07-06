@@ -1,0 +1,451 @@
+// Srishti 6.0 Events Database - Extracted from Official Google Doc
+export const eventsData = [
+  {
+    "id": 1,
+    "registrationLink": "https://forms.gle/dps-nritya-samanvaya",
+    "name": "Nritya Samanvaya",
+    "image": "/events/page_3_img_0.png",
+    "category": "Folk Dance Fusion",
+    "eligibility": "Grades VI - X",
+    "type": "Group",
+    "description": "“Dance is a poetry of which each movement is a word.”\n\nThe challenge lies in harmonising two vibrant streams of Indian folk tradition: one embodying the flamboyant energy of North Indian folk dance, the other channelling the profound cadence of South Indian folk dance. The two distinct styles must engage in a captivating jugalbandi before merging into one breathtaking finale—proving that diverse roots can create one beautiful expression.",
+    "guidelines": [
+      "Eligibility: Grades VI - X",
+      "Event Type: Group event (1 team per school)",
+      "No. of participants: 8 - 10 participants per team",
+      "The team should have at least one representative from each of the grades",
+      "Theme: A harmonic fusion of northern & southern Indian folk dances",
+      "Task: Each team should be divided into two distinct groups of dancers, representing northern and southern Indian folk dance.",
+      "Time limit: 6 minutes – 1 minute of introduction by the team, 1 minute of stage setup, and 4 minutes of performance time.",
+      "Props can be used.",
+      "Appropriate costumes, arranged by the participating team, should be worn.",
+      "Using movie songs will lead to disqualification. Please use private music albums only.",
+      "Vulgarity or obscenity in the form of attire, moves, and/or lyrics will lead to immediate disqualification."
+    ],
+    "coordinator": {
+      "name": "Mr. Vincent Paul",
+      "phone": "7411186339",
+      "email": "dance@dpsecity.com"
+    }
+  },
+  {
+    "id": 2,
+    "registrationLink": "https://forms.gle/dps-goonj",
+    "name": "Goonj",
+    "image": "/events/page_5_img_0.png",
+    "category": "Folk Music Fusion",
+    "eligibility": "Grades VI-VIII",
+    "type": "Group",
+    "description": "Let your voice echo across cultures. Participants will blend authentic folk music from two or more Indian states into one powerful performance, where distinct melodies and rhythms come together in perfect harmony.",
+    "guidelines": [
+      "Eligibility: Grades VI-VIII",
+      "Event Type: Group Event (1 team per school)",
+      "No of participants: 6-7 participants per team",
+      "Time duration: Stage Setup– 2 minutes + Duration of the song –3 minutes",
+      "Requirements: The participants must perform, either by playing their own instrument or using a karaoke track; however, in either case, the participants have to make relevant arrangements on their own. The host school shall provide no instruments.",
+      "If karaoke is used, only speakers for playing the music will be available. The song has to be brought in a well-labelled pen drive (the name of the school should be mentioned)",
+      "Language: Songs must be presented in the original regional languages of the chosen states."
+    ],
+    "coordinator": {
+      "name": "Ms. Bhawna Rawat",
+      "phone": "9901622924",
+      "email": "music@dpsecity.com"
+    }
+  },
+  {
+    "id": 3,
+    "registrationLink": "https://forms.gle/dps-savor",
+    "name": "Savor",
+    "image": "/events/page_6_img_0.png",
+    "category": "Cooking Without Fire",
+    "eligibility": "Grades VI - VIII",
+    "type": "Group",
+    "description": "Who says great food needs fire? SAVOR challenges participants to craft delicious, creative dishes using uncooked ingredients and maximum imagination. From plating to flavour, every element should impress.",
+    "guidelines": [
+      "Eligibility: Grades VI - VIII",
+      "Event Type: Group event",
+      "No of participants: Maximum of 2 teams per school (with 2 participants per team)",
+      "Theme: Multi-cuisine fusion",
+      "Time duration: 40 minutes",
+      "Task: Use only uncooked ingredients, assemble, garnish and serve",
+      "Requirements: As needed for the recipe"
+    ],
+    "coordinator": {
+      "name": "Ms. Kavita Arora / Ms. Aparna",
+      "phone": "9772153109 / 9538200091",
+      "email": "cooking@dpsecity.com"
+    }
+  },
+  {
+    "id": 4,
+    "registrationLink": "https://forms.gle/dps-echo-canvas",
+    "name": "Echo Canvas",
+    "image": "/events/echo_canvas_new.jpeg",
+    "category": "Fine Arts & Design",
+    "eligibility": "Grades VI – VIII",
+    "type": "Pair",
+    "description": "Can you create magic without seeing the whole picture? In this exciting challenge, teamwork meets creativity as two participants build one artwork—without communication and without knowing the full canvas. The final reveal promises surprises, imagination, and brilliance.",
+    "guidelines": [
+      "Eligibility: Grades VI – VIII",
+      "Event Type: Pair event (1 team per school with 2 participants)",
+      "Theme: Theme will be announced on the spot (e.g. School Without Walls, Hidden Superpower, One Earth, Future Classroom)",
+      "Time duration: 95 minutes total (Round 1: 45 min, Silent Study: 5 min, Round 2: 45 min, Title: 10 min)",
+      "Task: Student A begins the artwork. Student B stays in a waiting room. After handover, Student B gets 5 minutes to study the canvas before drawing. No verbal communication or notes allowed.",
+      "Requirements: One A3 drawing sheet provided by host. Pencils and dry colors only (crayons/color pencils). No words, numbers, or symbols inside the artwork. Must use at least 50% of the page."
+    ],
+    "coordinator": {
+      "name": "Ms. Prasanna Bathula",
+      "phone": "7259573891",
+      "email": "art@dpsecity.com"
+    }
+  },
+  {
+    "id": 5,
+    "registrationLink": "https://forms.gle/dps-crescendo-tricolore",
+    "name": "Crescendo Tricolore",
+    "image": "/events/page_9_img_0.png",
+    "category": "Patriotic Music Fusion",
+    "eligibility": "Grades IX-XII",
+    "type": "Group",
+    "description": "Three Colours. One Rhythm. Louder beats. Stronger pride. One nation. Feel the beat of patriotism come alive! Calling all music enthusiasts to feature a vibrant fusion of Hindi and English music inspired by the spirit of the Indian tricolour (Saffron, White, Green) in a performance bursting with energy.",
+    "guidelines": [
+      "Eligibility: Grades IX-XII",
+      "Event Type: Group event (1 team per school)",
+      "No of participants: 6 to 8 participants",
+      "The team should have at least one representative from each of the grades.",
+      "Task: Bands should curate a musical performance merging Hindi and English styles to embody the Indian flag’s values.",
+      "Time duration: Stage Setup– 2-3 minutes + Duration of the song –4 minutes",
+      "Requirements: Bands must perform using live instrumentation. Pre-recorded music or karaoke tracks are prohibited. Bands must bring their own gear."
+    ],
+    "coordinator": {
+      "name": "Ms. Bhawna Rawat",
+      "phone": "9901622924",
+      "email": "music@dpsecity.com"
+    }
+  },
+  {
+    "id": 6,
+    "registrationLink": "https://forms.gle/dps-wild-canvas",
+    "name": "Wild Canvas – Beyond Nature",
+    "category": "Fine Arts & Design",
+    "image": "/events/page_10_img_0.png",
+    "eligibility": "Grades IX-XII",
+    "type": "Individual",
+    "description": "Draw the Wild. Imagine the Impossible. Get ready to paint the wild with imagination! From fierce creatures to magical landscapes, participants will blend realism with artistic fantasy to craft vibrant wildlife artworks bursting with colour, texture, and wonder.",
+    "guidelines": [
+      "Eligibility: Grades IX-XII",
+      "Event Type: Individual event (Two participants per school)",
+      "Theme: Blooming Wilderness / Animal in Seasons",
+      "Time duration: 120 minutes",
+      "Task: Create an original wildlife artwork inspired by nature. Participants may combine realistic animal drawing with imaginative elements (flowers, textures, torn-paper, layered backgrounds) to enhance visual storytelling.",
+      "Requirements: A3 drawing sheet provided by host. All color mediums allowed. No tracing, printed references, stencils, or rulers. No text or slogans inside the artwork."
+    ],
+    "coordinator": {
+      "name": "Mr. Manjunath H Kale",
+      "phone": "9964288332",
+      "email": "art@dpsecity.com"
+    }
+  },
+  {
+    "id": 7,
+    "registrationLink": "https://forms.gle/dps-fumetto-fusion",
+    "name": "Fumetto Fusion",
+    "image": "/events/page_12_img_0.png",
+    "category": "Literature & Comic Art",
+    "eligibility": "Grades VI – VIII",
+    "type": "Group",
+    "description": "Frames that Speak, Stories that Inspire! Unleash your imagination and bring your stories to life through the exciting world of comic art! Create engaging characters, vibrant scenes, and powerful messages through a series of illustrated panels.",
+    "guidelines": [
+      "Eligibility: Grades VI – VIII",
+      "Event Type: Group Event (1 team per school, 2 participants)",
+      "Theme: A Better Tomorrow",
+      "Time duration: 90 Minutes",
+      "Task: Participants must collaboratively create an original hand-drawn comic strip consisting of 6–8 panels based on the given theme, with a suitable title. No printed images, stickers, or digital aids allowed.",
+      "Requirements: Bring your own drawing and coloring materials. A3 sheets will be provided by the host school."
+    ],
+    "coordinator": {
+      "name": "Ms. Nimisha Nisha / Ms. Lakshmipriya",
+      "phone": "9886833795",
+      "email": "comic@dpsecity.com"
+    }
+  },
+  {
+    "id": 8,
+    "registrationLink": "https://forms.gle/dps-chromatique",
+    "name": "Chromatique",
+    "image": "/events/page_14_img_0.jpeg",
+    "category": "Fine Arts & Design",
+    "eligibility": "Grades IX-XII",
+    "type": "Group",
+    "description": "From Skin to Story, One Stroke at a Time. Beyond skin lies a canvas waiting to awaken. Through bold strokes, vivid hues, and boundless imagination, participants will blur the line between art and identity, turning faces into breathtaking visual narratives.",
+    "guidelines": [
+      "Eligibility: Grades IX-XII",
+      "Event Type: Group Event (One artist and one model per entry, max 2 entries per school)",
+      "Theme: Face painting depicting Peace / Carnival masks / Underwater Bioluminescent Creatures",
+      "Time duration: 90 Minutes",
+      "Task: Interpret the given theme through expressive face art, followed by a brief presentation explaining the concept.",
+      "Requirements: Only skin-safe, non-toxic paints. No pre-drawn outlines or stencils. No mobile phones or reference books permitted during the event."
+    ],
+    "coordinator": {
+      "name": "Ms. Preethi Gupta / Ms. Hema H",
+      "phone": "9110219207",
+      "email": "art@dpsecity.com"
+    }
+  },
+  {
+    "id": 9,
+    "registrationLink": "https://forms.gle/dps-riwaayat",
+    "name": "Riwaayat",
+    "image": "/events/page_16_img_0.png",
+    "category": "Fine Arts & Design",
+    "eligibility": "Grades IX-XII",
+    "type": "Group",
+    "description": "Tradition in Lines, Magic in Design. More than patterns, it is poetry in henna. Watch tradition unfold through delicate lines and intricate artistry as every palm becomes a masterpiece of grace, culture, and timeless beauty.",
+    "guidelines": [
+      "Eligibility: Grades IX-XII",
+      "Event Type: Group Event (One designer and one partner model, max 2 entries per school)",
+      "Theme: Traditional Indian or Rajasthani",
+      "Time duration: 45 minutes",
+      "Task: Create original, freehand mehndi designs on the palm of the partner. Henna stencils are strictly prohibited.",
+      "Requirements: Participants must bring all their own henna cones and accessories."
+    ],
+    "coordinator": {
+      "name": "Ms. Madhumita Sarkar",
+      "phone": "9632140141",
+      "email": "art@dpsecity.com"
+    }
+  },
+  {
+    "id": 10,
+    "registrationLink": "https://forms.gle/dps-vogue-vista",
+    "name": "Vogue Vista",
+    "image": "/events/page_17_img_0.jpeg",
+    "category": "Fashion Runway Design",
+    "eligibility": "Grades IX-XII",
+    "type": "Group",
+    "description": "Where Style Meets Creativity. Fashion is identity in motion. Vogue Vista is a runway celebration where participants command the catwalk with confidence, displaying bold fashion narratives inspired by evolving trends, sustainability, and futuristic concepts.",
+    "guidelines": [
+      "Eligibility: Grades IX-XII",
+      "Event Type: Team event (6-10 participants per school)",
+      "The team should have at least one representative from each of the suggested grades.",
+      "Theme: Futuristic attire with a touch of tradition. Blends innovation, sustainability, technology, and evolving cultural identities.",
+      "Time duration: 5 minutes total (1 min introduction, 1 min setup, 3 min ramp performance).",
+      "Props are allowed but not mandatory.",
+      "Vulgarity or obscenity in attire, moves, or lyrics will lead to immediate disqualification."
+    ],
+    "coordinator": {
+      "name": "Ms. Akansha Poddar / Ms. Sowjanya",
+      "phone": "9873592435",
+      "email": "fashion@dpsecity.com"
+    }
+  },
+  {
+    "id": 11,
+    "registrationLink": "https://forms.gle/dps-vox-altera",
+    "name": "Vox Altera",
+    "image": "/events/page_19_img_0.png",
+    "category": "English Literature & Skit",
+    "eligibility": "Grades IX – XII",
+    "type": "Group",
+    "description": "Beyond the Story. Into the Perspective. \"One Story. Many Perspectives. Infinite Possibilities.\" Between the lines lie stories untold. Revisit iconic Shakespearean characters through fresh perspectives, uncovering hidden truths and reimagining timeless narratives for the stage.",
+    "guidelines": [
+      "Eligibility: Students of Grades IX – XII",
+      "Event Type: Group Event (1 team per school, 6–8 members)",
+      "The team should have at least one representative from each of the grades.",
+      "Theme: Bring a Shakespearean classic scene to life through a modern reinterpretation.",
+      "Time duration: 8–10 minutes",
+      "Language: English only",
+      "Task: Perform an original script that reimagines a well-known literary character by exploring hidden motivations, moral dilemmas, and alternative perspectives.",
+      "Requirements: Minimal, portable props. Costumes and sound effects are permitted. Content must be suitable for a school audience."
+    ],
+    "coordinator": {
+      "name": "Ms. Jiji Ranganathan / Ms. Neha Singh",
+      "phone": "9019660616",
+      "email": "english@dpsecity.com"
+    }
+  },
+  {
+    "id": 12,
+    "registrationLink": "https://forms.gle/dps-nukkad-natak",
+    "name": "नुक्कड़ की दस्तक",
+    "category": "Hindi Drama & Nukkad Natak",
+    "eligibility": "Grades IX-XII",
+    "image": "/events/page_21_img_0.jpeg",
+    "type": "Group",
+    "description": "समस्याओं पर दस्तक, समाधान की आहट - नुक्कड़ नाटक प्रतियोगिता।\nविषय: 'फ़ोन पर उंगली, ज़िंदगी फिसली: रील की लत, FOMO की पकड़, और हक़ीक़त से नाता टूटा' अथवा 'ऑनलाइन मुस्कान, डिजिटल रिश्ते, असली जिंदगी में फासले'।\nनुक्कड़ नाटक कला का एक स्थापित रूप है जो युवाओं के रचनात्मक कौशल को बढ़ावा देने और सामाजिक संदेश पहुँचाने के लिए मनोवैज्ञानिक सीमा को चुनौती देता है।",
+    "guidelines": [
+      "यह एक सामूहिक गतिविधि है, जिसमें 8-10 प्रतिनिधि भाग ले सकते हैं। प्रति विद्यालय एक ही प्रविष्टि (IX-XII)",
+      "प्रत्येक कक्षा से कम से कम एक प्रतिभागी का होना अनिवार्य।",
+      "समय अवधि: 8–10 मिनट। (नकारात्मक अंकन यदि निर्धारित समय सीमा पार होती है)",
+      "किसी भी प्रकार की अभद्र/अश्लील भाषा का प्रयोग सर्वथा वर्जित है।",
+      "प्रॉप्स के उपयोग की अनुमति है (स्वयं लाने होंगे)। कोई भी ज्वलनशील या खतरनाक वस्तु वर्जित है।",
+      "निर्णायकगण का निर्णय अंतिम और बाध्यकारी होगा।"
+    ],
+    "coordinator": {
+      "name": "Ms. Shashi Singh",
+      "phone": "9325186073",
+      "email": "hindi@dpsecity.com"
+    }
+  },
+  {
+    "id": 13,
+    "registrationLink": "https://forms.gle/dps-el-silencio",
+    "name": "El Silencio",
+    "image": "/events/page_23_img_0.png",
+    "category": "Mime & Non-Verbal Drama",
+    "eligibility": "Grades IX-XII",
+    "type": "Group",
+    "description": "Where Silence Finds Its Voice. Where words fade, expression speaks. Through powerful gestures, striking expressions, and evocative movement, participants will transform silence into a compelling language of emotion and storytelling.",
+    "guidelines": [
+      "Eligibility: Grades IX-XII",
+      "Event Type: Team Event (6-8 participants per team)",
+      "Theme: Contemporary Issues / Mental Health / Balancing Technology and Real Connections / Online Validation",
+      "Time duration: 2 minutes setup + 4 minutes performance",
+      "Task: Present a mime act using gestures and expressions without any dialogue.",
+      "Requirements: Simple costumes, placards, masks, and minimal props allowed. Background music and sound effects permitted. No hazardous or liquid materials."
+    ],
+    "coordinator": {
+      "name": "Ms. Kamya Thareja / Ms. Anandita",
+      "phone": "8950524217",
+      "email": "drama@dpsecity.com"
+    }
+  },
+  {
+    "id": 14,
+    "registrationLink": "https://forms.gle/dps-visio-vox",
+    "name": "Visio Vox",
+    "image": "/events/page_25_img_0.png",
+    "category": "Media & Reel Making",
+    "eligibility": "Grades IX - XII",
+    "type": "Group",
+    "description": "Create. Capture. Inspire. Got a story to tell in 60 seconds? This competition challenges young creators to use their editing skills, cameras, and unique perspectives to craft engaging reels that leave a lasting impression.",
+    "guidelines": [
+      "Eligibility: Grades IX to XII",
+      "Event Type: Group Event (1 team per school, 4 participants)",
+      "Theme: Freedom Through My Lens - Capture patriotism, responsibility, and India's future.",
+      "Time duration: 1 hour 30 minutes total (capturing and editing on campus)",
+      "Task: Craft an original 60-90 second vertical (9:16) reel using a smartphone only.",
+      "Requirements: Bring one smartphone and one laptop per team. Basic editing only (cuts, transitions, text, music). No pre-made templates or excessive AI filters.",
+      "Note: All recorded campus footage remains host school property."
+    ],
+    "coordinator": {
+      "name": "Ms. Anusha Shanmughom / Ms. Gisha",
+      "phone": "9686299867",
+      "email": "media@dpsecity.com"
+    }
+  },
+  {
+    "id": 15,
+    "registrationLink": "https://forms.gle/dps-lex-ultima",
+    "name": "Lex Ultima",
+    "image": "/events/page_27_img_0.png",
+    "category": "Law & Humanities",
+    "eligibility": "Grades XI - XII",
+    "type": "Group",
+    "description": "Veritas v. Verdict - Where Precedence Meets Precision. Enter the arena of law and reason. In this simulated courtroom challenge, participants will argue cases with precision, defend perspectives with conviction, and showcase advocacy through logic.",
+    "guidelines": [
+      "Eligibility: Grades XI-XII",
+      "Event Type: Team Event (2 to 3 members per team)",
+      "Theme: Formal Attire",
+      "Time duration: 7 minutes per round",
+      "Round 1: Case study released at 8:00 PM the night prior. Round 2: Surprise case study on the spot.",
+      "Requirements: Good knowledge of the Indian Legal System and codified laws. No AI tools permitted."
+    ],
+    "coordinator": {
+      "name": "Ms. Hena Ahmad",
+      "phone": "7406886272",
+      "email": "humanities@dpsecity.com"
+    }
+  },
+  {
+    "id": 16,
+    "registrationLink": "https://forms.gle/dps-hype-hustle",
+    "name": "The Hype Hustle",
+    "image": "/events/page_29_img_0.png",
+    "category": "Business & Marketing",
+    "eligibility": "Grades XI - XII",
+    "type": "Group",
+    "description": "Brand it. Sell It. Own It. The Hype Hustle is a high-energy marketing and sales challenge where imagination drives business. Turn the ordinary into extraordinary by creating a memorable brand and pitching it with confidence.",
+    "guidelines": [
+      "Eligibility: Grades XI-XII",
+      "Event Type: Group Event (1 team per school, 3-4 participants)",
+      "Time duration: Round 1 (Marketing): 5 minutes pitch; Round 2 (Sales): 7 minutes pitch.",
+      "Task: Round 1: Create a brand from scratch for a randomly assigned object (naming, positioning). Round 2: Pitch the brand to judges to secure sales.",
+      "Requirements: One laptop and one hotspot phone allowed per team. All ideas, logos, taglines, and graphics must be created on-site. No AI usage."
+    ],
+    "coordinator": {
+      "name": "Ms. Teju L N",
+      "phone": "9686515369",
+      "email": "business@dpsecity.com"
+    }
+  },
+  {
+    "id": 17,
+    "registrationLink": "https://forms.gle/dps-persona-prism",
+    "name": "Persona Prism",
+    "image": "/events/page_31_img_0.png",
+    "category": "Social Science & Psychology",
+    "eligibility": "Grades IX – XII",
+    "type": "Group",
+    "description": "Mind Over Motive. Every mind has a story worth understanding. Beyond every action lies a mind waiting to be decoded. Explore the psychology of complex fictional characters by analyzing personality traits, hidden motives, and behaviors.",
+    "guidelines": [
+      "Eligibility: Grades IX–XII",
+      "Event Type: Group event (2–3 participants per team)",
+      "Theme: Behaviour, Motivation, and Responsibility",
+      "Time Duration: 60–75 minutes",
+      "Task: Teams receive a psychological case file of a randomly assigned character from movies/anime/literature. Analyze personality and motives to formulate a responsibility verdict supported by evidence.",
+      "Requirements: Basic stationery. Familiarity with pre-announced source materials."
+    ],
+    "coordinator": {
+      "name": "Ms. Divya P",
+      "phone": "8086829569",
+      "email": "psychology@dpsecity.com"
+    }
+  },
+  {
+    "id": 18,
+    "registrationLink": "https://forms.gle/dps-earth-os",
+    "name": "EarthOS",
+    "image": "/events/page_33_img_0.png",
+    "category": "Computer Coding",
+    "eligibility": "Grades IX – XII",
+    "type": "Group",
+    "description": "Fresh Code for a Greener Tomorrow. Where code meets conscience. EarthOS challenges participants to build technology-driven solutions for a sustainable future. Develop mini-apps, simulations, or games that inspire green choices.",
+    "guidelines": [
+      "Eligibility: Grades IX–XII",
+      "Event Type: Team Event (1 team per school, 2 participants)",
+      "Duration: 2 Hours coding",
+      "Theme: Eco-Tech (Building tools for energy saving, recycling, climate, or wildlife protection)",
+      "Task: Build a live prototype (e.g., carbon calculator, sorting game, energy tracker) using Python or JavaScript only.",
+      "Requirements: Zero prior code or templates allowed. Coding must be done live on host machines. Followed by a 2-minute project pitch."
+    ],
+    "coordinator": {
+      "name": "Ms. Devika N",
+      "phone": "9886350455",
+      "email": "compsci@dpsecity.com"
+    }
+  },
+  {
+    "id": 19,
+    "registrationLink": "https://forms.gle/dps-terra-tech",
+    "name": "TerraTech",
+    "image": "/events/page_35_img_0.png",
+    "category": "Computer Coding",
+    "eligibility": "Grades VI-VIII",
+    "type": "Group",
+    "description": "Small Code Big Impact. Build. Code. Transform. TerraTech is where coding and collaboration converge to create digital prototypes for a sustainable future. Design a block-coded app prototype that addresses ecological challenges.",
+    "guidelines": [
+      "Eligibility: Grades VI-VIII",
+      "Event Type: Team Event (1 team per school, 2 participants)",
+      "Duration: 2 Hours coding",
+      "Theme: Eco-Tech (energy saving, recycling, conservation, climate awareness)",
+      "Task: Build a live mobile app prototype in MIT App Inventor addressing the theme (min 5 screens).",
+      "Requirements: Developed live on-site from scratch. Followed by a 2-minute pitch explaining the app's features."
+    ],
+    "coordinator": {
+      "name": "Ms. Sangeeta Sahoo",
+      "phone": "8105977003",
+      "email": "compsci@dpsecity.com"
+    }
+  }
+];
