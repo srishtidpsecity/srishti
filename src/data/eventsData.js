@@ -24,8 +24,7 @@ export const eventsData = [
     ],
     "coordinator": {
       "name": "Mr. Vincent Paul",
-      "phone": "7411186339",
-      "email": "dance@dpsecity.com"
+      "phone": "7411186339"
     }
   },
   {
@@ -48,8 +47,7 @@ export const eventsData = [
     ],
     "coordinator": {
       "name": "Ms. Bhawna Rawat",
-      "phone": "9901622924",
-      "email": "music@dpsecity.com"
+      "phone": "9901622924"
     }
   },
   {
@@ -72,8 +70,7 @@ export const eventsData = [
     ],
     "coordinator": {
       "name": "Ms. Kavita Arora / Ms. Aparna",
-      "phone": "9772153109 / 9538200091",
-      "email": "cooking@dpsecity.com"
+      "phone": "9772153109 / 9538200091"
     }
   },
   {
@@ -95,8 +92,7 @@ export const eventsData = [
     ],
     "coordinator": {
       "name": "Ms. Prasanna Bathula",
-      "phone": "7259573891",
-      "email": "art@dpsecity.com"
+      "phone": "7259573891"
     }
   },
   {
@@ -119,8 +115,7 @@ export const eventsData = [
     ],
     "coordinator": {
       "name": "Ms. Bhawna Rawat",
-      "phone": "9901622924",
-      "email": "music@dpsecity.com"
+      "phone": "9901622924"
     }
   },
   {
@@ -142,8 +137,7 @@ export const eventsData = [
     ],
     "coordinator": {
       "name": "Mr. Manjunath H Kale",
-      "phone": "9964288332",
-      "email": "art@dpsecity.com"
+      "phone": "9964288332"
     }
   },
   {
@@ -165,8 +159,7 @@ export const eventsData = [
     ],
     "coordinator": {
       "name": "Ms. Nimisha Nisha / Ms. Lakshmipriya",
-      "phone": "9886833795",
-      "email": "comic@dpsecity.com"
+      "phone": "9886833795"
     }
   },
   {
@@ -188,8 +181,7 @@ export const eventsData = [
     ],
     "coordinator": {
       "name": "Ms. Preethi Gupta / Ms. Hema H",
-      "phone": "9110219207",
-      "email": "art@dpsecity.com"
+      "phone": "9110219207"
     }
   },
   {
@@ -211,8 +203,7 @@ export const eventsData = [
     ],
     "coordinator": {
       "name": "Ms. Madhumita Sarkar",
-      "phone": "9632140141",
-      "email": "art@dpsecity.com"
+      "phone": "9632140141"
     }
   },
   {
@@ -235,8 +226,7 @@ export const eventsData = [
     ],
     "coordinator": {
       "name": "Ms. Akansha Poddar / Ms. Sowjanya",
-      "phone": "9873592435",
-      "email": "fashion@dpsecity.com"
+      "phone": "9873592435"
     }
   },
   {
@@ -260,8 +250,7 @@ export const eventsData = [
     ],
     "coordinator": {
       "name": "Ms. Jiji Ranganathan / Ms. Neha Singh",
-      "phone": "9019660616",
-      "email": "english@dpsecity.com"
+      "phone": "9019660616"
     }
   },
   {
@@ -283,8 +272,7 @@ export const eventsData = [
     ],
     "coordinator": {
       "name": "Ms. Shashi Singh",
-      "phone": "9325186073",
-      "email": "hindi@dpsecity.com"
+      "phone": "9325186073"
     }
   },
   {
@@ -306,8 +294,7 @@ export const eventsData = [
     ],
     "coordinator": {
       "name": "Ms. Kamya Thareja / Ms. Anandita",
-      "phone": "8950524217",
-      "email": "drama@dpsecity.com"
+      "phone": "8950524217"
     }
   },
   {
@@ -330,8 +317,7 @@ export const eventsData = [
     ],
     "coordinator": {
       "name": "Ms. Anusha Shanmughom / Ms. Gisha",
-      "phone": "9686299867",
-      "email": "media@dpsecity.com"
+      "phone": "9686299867"
     }
   },
   {
@@ -353,8 +339,7 @@ export const eventsData = [
     ],
     "coordinator": {
       "name": "Ms. Hena Ahmad",
-      "phone": "7406886272",
-      "email": "humanities@dpsecity.com"
+      "phone": "7406886272"
     }
   },
   {
@@ -375,8 +360,7 @@ export const eventsData = [
     ],
     "coordinator": {
       "name": "Ms. Teju L N",
-      "phone": "9686515369",
-      "email": "business@dpsecity.com"
+      "phone": "9686515369"
     }
   },
   {
@@ -398,8 +382,7 @@ export const eventsData = [
     ],
     "coordinator": {
       "name": "Ms. Divya P",
-      "phone": "8086829569",
-      "email": "psychology@dpsecity.com"
+      "phone": "8086829569"
     }
   },
   {
@@ -421,8 +404,7 @@ export const eventsData = [
     ],
     "coordinator": {
       "name": "Ms. Devika N",
-      "phone": "9886350455",
-      "email": "compsci@dpsecity.com"
+      "phone": "9886350455"
     }
   },
   {
@@ -444,8 +426,7 @@ export const eventsData = [
     ],
     "coordinator": {
       "name": "Ms. Sangeeta Sahoo",
-      "phone": "8105977003",
-      "email": "compsci@dpsecity.com"
+      "phone": "8105977003"
     }
   }
 ];
