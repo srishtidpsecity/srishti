@@ -5,18 +5,9 @@ import FloatingWrapper from './FloatingWrapper';
 
 export default function Registration() {
   const [copiedField, setCopiedField] = useState(null);
-  
+
   // Interactive Calculator State
   const [selectedEvents, setSelectedEvents] = useState([]);
-
-  const bankDetails = {
-    accountName: "Delhi Public School Electronic City",
-    bankName: "Canara Bank",
-    branch: "Niladri Branch",
-    accountNo: "3006101007678",
-    ifsc: "CNRB0003006",
-    accountType: "SB General Account"
-  };
 
   const handleCopy = (text, fieldName) => {
     navigator.clipboard.writeText(text);
@@ -62,7 +53,7 @@ export default function Registration() {
   return (
     <section id="register" className="relative py-24 border-t border-[#00f3ff]/10">
       <div className="container-width relative z-10">
-        
+
         {/* Section Title */}
         <div className="text-center space-y-6 mb-24">
           <span className="font-mono text-xs uppercase tracking-[0.25em] text-[#00f3ff]">
@@ -75,16 +66,16 @@ export default function Registration() {
         </div>
 
         <div className="grid grid-cols-1 lg:grid-cols-12 gap-16 items-start">
-          
+
           {/* Instructions and Bank Card (Left Column) */}
           <div className="lg:col-span-6 space-y-8">
-            
+
             {/* Step-by-Step Visual Indicators */}
             <div className="space-y-8">
               <h3 className="font-cinzel text-xl font-bold text-white mb-4">
                 How to Register
               </h3>
-              
+
               <div className="space-y-4">
                 {registrationSteps.map((step, idx) => (
                   <div key={idx} className="flex gap-4">
@@ -104,75 +95,6 @@ export default function Registration() {
               </div>
             </div>
 
-            {/* Premium Bank Details Card wrapped in FloatingWrapper with glowing-glass */}
-            <FloatingWrapper className="rounded-xl glowing-glass overflow-hidden shadow-lg border border-cyan-500/10">
-              <div className="inner-rim" />
-              <div className="p-8 relative">
-                {/* Card microchip visual */}
-                <div className="absolute top-6 right-6 w-10 h-8 bg-gradient-to-br from-[#06b6d4] to-blue-900/30 rounded-md opacity-30 border border-[#06b6d4]/40" />
-                
-                <div className="flex items-center space-x-2 text-[#06b6d4] mb-6">
-                  <CreditCard className="w-5 h-5" />
-                  <span className="font-mono text-xs uppercase tracking-[0.2em] font-bold">CANARA BANK PAYMENT DETAILS</span>
-                </div>
-
-                <div className="space-y-6 font-mono text-xs text-white">
-                  {/* Account Name */}
-                  <div className="flex justify-between items-center border-b border-cyan-500/10 pb-2">
-                    <div>
-                      <span className="text-white block text-[9px] uppercase tracking-wider">Account Name</span>
-                      <span className="text-sm font-semibold text-white">{bankDetails.accountName}</span>
-                    </div>
-                    <button 
-                      onClick={() => handleCopy(bankDetails.accountName, 'name')}
-                      className="p-1 text-[#06b6d4] hover:text-white transition-colors"
-                    >
-                      {copiedField === 'name' ? <Check className="w-4 h-4 text-green-500" /> : <Copy className="w-4 h-4" />}
-                    </button>
-                  </div>
-
-                  {/* Account Number */}
-                  <div className="flex justify-between items-center border-b border-cyan-500/10 pb-2">
-                    <div>
-                      <span className="text-white block text-[9px] uppercase tracking-wider">Account Number</span>
-                      <span className="text-base font-semibold text-white tracking-widest">{bankDetails.accountNo}</span>
-                    </div>
-                    <button 
-                      onClick={() => handleCopy(bankDetails.accountNo, 'acc')}
-                      className="p-1 text-[#06b6d4] hover:text-white transition-colors"
-                    >
-                      {copiedField === 'acc' ? <Check className="w-4 h-4 text-green-500" /> : <Copy className="w-4 h-4" />}
-                    </button>
-                  </div>
-
-                  {/* IFSC Code */}
-                  <div className="flex justify-between items-center border-b border-cyan-500/10 pb-2">
-                    <div>
-                      <span className="text-white block text-[9px] uppercase tracking-wider">IFSC Code</span>
-                      <span className="text-sm font-semibold text-[#06b6d4] tracking-widest">{bankDetails.ifsc}</span>
-                    </div>
-                    <button 
-                      onClick={() => handleCopy(bankDetails.ifsc, 'ifsc')}
-                      className="p-1 text-[#06b6d4] hover:text-white transition-colors"
-                    >
-                      {copiedField === 'ifsc' ? <Check className="w-4 h-4 text-green-500" /> : <Copy className="w-4 h-4" />}
-                    </button>
-                  </div>
-
-                  {/* Account Type & Branch */}
-                  <div className="grid grid-cols-2 gap-4">
-                    <div>
-                      <span className="text-white block text-[9px] uppercase tracking-wider">Account Type</span>
-                      <span className="text-xs text-white">{bankDetails.accountType}</span>
-                    </div>
-                    <div>
-                      <span className="text-white block text-[9px] uppercase tracking-wider">Branch</span>
-                      <span className="text-xs text-white">{bankDetails.branch}</span>
-                    </div>
-                  </div>
-                </div>
-              </div>
-            </FloatingWrapper>
 
             {/* Email instructions */}
             <div className="rounded-[1rem] glowing-glass p-4 border border-cyan-500/10 text-xs flex items-start gap-3">
@@ -191,7 +113,7 @@ export default function Registration() {
               <div className="inner-rim" />
               <div className="p-8 md:p-10 relative z-10 flex-grow flex flex-col">
                 <div className="absolute top-0 left-0 w-full h-[2px] bg-gradient-to-r from-transparent via-[#06b6d4]/30 to-transparent" />
-                
+
                 <div className="flex items-center space-x-2 text-[#06b6d4] mb-6 shrink-0">
                   <Calculator className="w-5 h-5" />
                   <h3 className="font-cinzel text-xl font-bold text-white">Fee Calculator</h3>
@@ -209,16 +131,14 @@ export default function Registration() {
                           <div
                             key={ev.id}
                             onClick={() => toggleEventSelection(ev.id)}
-                            className={`flex items-center justify-between p-2 rounded cursor-pointer border transition-all ${
-                              isSelected
-                                ? 'bg-cyan-500/10 border-cyan-500/50 text-white'
-                                : 'border-transparent text-white hover:bg-white/5 hover:text-white'
-                            }`}
+                            className={`flex items-center justify-between p-2 rounded cursor-pointer border transition-all ${isSelected
+                              ? 'bg-cyan-500/10 border-cyan-500/50 text-white'
+                              : 'border-transparent text-white hover:bg-white/5 hover:text-white'
+                              }`}
                           >
                             <div className="flex items-center space-x-3 flex-1 min-w-0 pr-2">
-                              <div className={`w-4 h-4 rounded border flex items-center justify-center shrink-0 transition-all ${
-                                isSelected ? 'border-[#06b6d4] bg-[#06b6d4]' : 'border-white/20 bg-transparent'
-                              }`}>
+                              <div className={`w-4 h-4 rounded border flex items-center justify-center shrink-0 transition-all ${isSelected ? 'border-[#06b6d4] bg-[#06b6d4]' : 'border-white/20 bg-transparent'
+                                }`}>
                                 {isSelected && <Check className="w-3 h-3 text-[#050505] stroke-[3]" />}
                               </div>
                               <span className="font-raleway text-xs font-medium text-left truncate">{ev.name} <span className="font-mono text-[9px] opacity-60">({ev.eligibility})</span></span>
@@ -240,14 +160,15 @@ export default function Registration() {
                       <span>Total Registration Fee:</span>
                       <span className="text-[#06b6d4]">₹{calculateTotal()}</span>
                     </div>
-                    
-                    {/* Dummy Register Now Button */}
+
+                    {/* Placeholder Register Now Button */}
                     <a
-                      href="#"
-                      onClick={(e) => e.preventDefault()}
-                      className="w-full glow-button px-8 py-4 rounded text-sm tracking-widest text-center flex items-center justify-center font-bold"
+                      href="https://example.com"
+                      target="_blank"
+                      rel="noopener noreferrer"
+                      className="w-full glow-button px-8 py-3 rounded text-sm tracking-widest text-center flex flex-col items-center justify-center font-bold"
                     >
-                      REGISTER NOW
+                      <span>REGISTER NOW</span>
                     </a>
                   </div>
                 </div>

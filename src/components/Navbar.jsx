@@ -23,7 +23,6 @@ export default function Navbar() {
     { name: 'Home', href: '#home' },
     { name: 'About', href: '#about' },
     { name: 'Events', href: '#events' },
-    { name: 'How to Register', href: '#register' },
     { name: 'Venue & Contact', href: '#contact' },
   ];
 
@@ -74,6 +73,13 @@ export default function Navbar() {
               <span className="absolute bottom-0 left-0 w-0 h-[1.5px] bg-[#00f3ff] transition-all duration-300 group-hover:w-full"></span>
             </a>
           ))}
+          <a
+            href="#register"
+            onClick={(e) => handleLinkClick(e, '#register')}
+            className="glow-button px-6 py-2 rounded text-xs tracking-widest flex items-center justify-center font-bold"
+          >
+            REGISTER NOW
+          </a>
         </div>
 
         {/* Mobile menu button */}
@@ -102,6 +108,13 @@ export default function Navbar() {
               {link.name}
             </a>
           ))}
+          <a
+            href="#register"
+            onClick={(e) => handleLinkClick(e, '#register')}
+            className="glow-button w-full text-center px-5 py-3 mt-4 rounded text-xs tracking-widest font-bold"
+          >
+            REGISTER NOW
+          </a>
         </div>
       </div>
     </nav>
