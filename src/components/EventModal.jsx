@@ -134,7 +134,7 @@ export default function EventModal({ event, onClose }) {
                   )}
                   <div>
                     <h4 className="font-cinzel text-[#fff] font-bold mb-2">About the Event</h4>
-                    <p className="font-raleway text-sm text-white whitespace-pre-line leading-relaxed">
+                    <p className="font-raleway text-sm text-white whitespace-pre-wrap leading-relaxed">
                       {event.description}
                     </p>
                   </div>
@@ -168,7 +168,7 @@ export default function EventModal({ event, onClose }) {
                   {filteredGuidelines.length > 0 ? (
                     <ul className="list-disc pl-5 space-y-4 text-sm md:text-base text-white">
                       {filteredGuidelines.map((g, i) => (
-                        <li key={i} className="leading-relaxed">{g}</li>
+                        <li key={i} className="leading-relaxed whitespace-pre-wrap">{g}</li>
                       ))}
                     </ul>
                   ) : (

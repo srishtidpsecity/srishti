@@ -83,15 +83,16 @@ export const eventsData = [
     "image": "/events/echo_canvas_new.jpeg",
     "category": "Fine Arts & Design",
     "eligibility": "Grades VI – VIII",
-    "type": "Pair",
+    "type": "Group",
     "description": "Can you create magic without seeing the whole picture? In this exciting challenge, teamwork meets creativity as two participants build one artwork—without communication and without knowing the full canvas. The final reveal promises surprises, imagination, and brilliance.",
     "guidelines": [
       "Eligibility: Grades VI – VIII",
-      "Event Type: Pair event (1 team per school with 2 participants)",
+      "Event Type: Group event (1 team per school with 2 participants)",
       "Theme: Theme will be announced on the spot (e.g. School Without Walls, Hidden Superpower, One Earth, Future Classroom)",
-      "Time duration: 95 minutes total (Round 1: 45 min, Silent Study: 5 min, Round 2: 45 min, Title: 10 min)",
-      "Task: Student A begins the artwork. Student B stays in a waiting room. After handover, Student B gets 5 minutes to study the canvas before drawing. No verbal communication or notes allowed.",
-      "Requirements: One A3 drawing sheet provided by host. Pencils and dry colors only (crayons/color pencils). No words, numbers, or symbols inside the artwork. Must use at least 50% of the page."
+      "Time duration: 105 minutes total (Round 1: 45 min, Viewing: 5 min, Round 2: 45 min, Title: 10 min)",
+      "Task: \n\t❖Student A begins the artwork based on the given theme. \n\t❖No Communication: Team members cannot talk, text, or leave notes for each \n\t\tother.\n\t❖The Waiting Room: Artist B must remain in a separate room while Artist A is \n\tdrawing.\n\t❖The Handover: Artist A leaves the room before Artist B enters.\n\t❖The Silent Study: Artist B gets 5 minutes to look at the canvas before they start \n\tdrawing.\n\t❖No Do-Overs: Artist B cannot erase or paint over Artist A’s work completely; they \n\tmust build upon it.",
+      "Language: Visual expression only (Title submission in English)",
+      "Requirements: \n\t❖One A3 drawing sheet provided by host. \n\t❖Pencils and dry colors only (crayons/color pencils). \n\t❖No words, numbers, or symbols inside the artwork. \n\t❖Must use at least 50% of the page."
     ],
     "coordinator": {
       "name": "Ms. Prasanna Bathula",
