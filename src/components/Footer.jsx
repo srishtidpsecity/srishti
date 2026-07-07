@@ -24,7 +24,7 @@ export default function Footer() {
             </div>
           </div>
           <p className="font-raleway text-xs leading-relaxed text-white max-w-sm">
-            Srishti Season 6.0 is the premier inter-school festival hosted by Delhi Public School Electronic City, celebrating creative brilliance, talent, and mathematical ingenuity.
+            Srishti Season 6.0 is the premier inter-school festival hosted by Delhi Public School Electronic City, celebrating creative brilliance, talent, and ingenuity.
           </p>
           <div className="space-y-3 font-mono text-xs">
             <div className="flex items-center space-x-3">
