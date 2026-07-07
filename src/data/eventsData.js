@@ -3,12 +3,12 @@ export const eventsData = [
   {
     "id": 1,
     "registrationLink": "https://forms.gle/dps-nritya-samanvaya",
-    "name": "Nritya Samanvaya",
+    "name": "Samanvaya",
     "image": "/events/page_3_img_0.png",
     "category": "Folk Dance Fusion",
     "eligibility": "Grades VI - X",
     "type": "Group",
-    "description": "“Dance is a poetry of which each movement is a word.”\n\nThe challenge lies in harmonising two vibrant streams of Indian folk tradition: one embodying the flamboyant energy of North Indian folk dance, the other channelling the profound cadence of South Indian folk dance. The two distinct styles must engage in a captivating jugalbandi before merging into one breathtaking finale—proving that diverse roots can create one beautiful expression.",
+    "description": "The challenge lies in harmonising two vibrant streams of Indian folk tradition: one embodying the flamboyant energy of North Indian folk dance, the other channelling the profound cadence of South Indian folk dance. The two distinct styles must engage in a captivating jugalbandi before merging into one breathtaking finale—proving that diverse roots can create one beautiful expression.",
     "guidelines": [
       "Eligibility: Grades VI - X",
       "Event Type: Group event (1 team per school)",
@@ -25,7 +25,8 @@ export const eventsData = [
     "coordinator": {
       "name": "Mr. Vincent Paul",
       "phone": "7411186339"
-    }
+    },
+    "tagline": "“Dance is a poetry of which each movement is a word.”"
   },
   {
     "id": 2,
@@ -35,7 +36,7 @@ export const eventsData = [
     "category": "Folk Music Fusion",
     "eligibility": "Grades VI-VIII",
     "type": "Group",
-    "description": "Let your voice echo across cultures. Participants will blend authentic folk music from two or more Indian states into one powerful performance, where distinct melodies and rhythms come together in perfect harmony.",
+    "description": "Participants will blend authentic folk music from two or more Indian states into one powerful performance, where distinct melodies and rhythms come together in perfect harmony.",
     "guidelines": [
       "Eligibility: Grades VI-VIII",
       "Event Type: Group Event (1 team per school)",
@@ -48,7 +49,8 @@ export const eventsData = [
     "coordinator": {
       "name": "Ms. Bhawna Rawat",
       "phone": "9901622924"
-    }
+    },
+    "tagline": "Let your voice echo across cultures."
   },
   {
     "id": 3,
@@ -58,7 +60,7 @@ export const eventsData = [
     "category": "Cooking Without Fire",
     "eligibility": "Grades VI - VIII",
     "type": "Group",
-    "description": "Who says great food needs fire? SAVOR challenges participants to craft delicious, creative dishes using uncooked ingredients and maximum imagination. From plating to flavour, every element should impress.",
+    "description": "SAVOR challenges participants to craft delicious, creative dishes using uncooked ingredients and maximum imagination. From plating to flavour, every element should impress.",
     "guidelines": [
       "Eligibility: Grades VI - VIII",
       "Event Type: Group event",
@@ -71,7 +73,8 @@ export const eventsData = [
     "coordinator": {
       "name": "Ms. Kavita Arora / Ms. Aparna",
       "phone": "9772153109 / 9538200091"
-    }
+    },
+    "tagline": "Who says great food needs fire?"
   },
   {
     "id": 4,
@@ -81,7 +84,7 @@ export const eventsData = [
     "category": "Fine Arts & Design",
     "eligibility": "Grades VI – VIII",
     "type": "Pair",
-    "description": "Can you create magic without seeing the whole picture? In this exciting challenge, teamwork meets creativity as two participants build one artwork—without communication and without knowing the full canvas. The final reveal promises surprises, imagination, and brilliance.",
+    "description": "In this exciting challenge, teamwork meets creativity as two participants build one artwork—without communication and without knowing the full canvas. The final reveal promises surprises, imagination, and brilliance.",
     "guidelines": [
       "Eligibility: Grades VI – VIII",
       "Event Type: Pair event (1 team per school with 2 participants)",
@@ -93,7 +96,8 @@ export const eventsData = [
     "coordinator": {
       "name": "Ms. Prasanna Bathula",
       "phone": "7259573891"
-    }
+    },
+    "tagline": "Can you create magic without seeing the whole picture?"
   },
   {
     "id": 5,
@@ -103,7 +107,7 @@ export const eventsData = [
     "category": "Patriotic Music Fusion",
     "eligibility": "Grades IX-XII",
     "type": "Group",
-    "description": "Three Colours. One Rhythm. Louder beats. Stronger pride. One nation. Feel the beat of patriotism come alive! Calling all music enthusiasts to feature a vibrant fusion of Hindi and English music inspired by the spirit of the Indian tricolour (Saffron, White, Green) in a performance bursting with energy.",
+    "description": "Calling all music enthusiasts to feature a vibrant fusion of Hindi and English music inspired by the spirit of the Indian tricolour (Saffron, White, Green) in a performance bursting with energy.",
     "guidelines": [
       "Eligibility: Grades IX-XII",
       "Event Type: Group event (1 team per school)",
@@ -116,7 +120,8 @@ export const eventsData = [
     "coordinator": {
       "name": "Ms. Bhawna Rawat",
       "phone": "9901622924"
-    }
+    },
+    "tagline": "Three Colours. One Rhythm. Louder beats. Stronger pride. One nation. Feel the beat of patriotism come alive!"
   },
   {
     "id": 6,
@@ -126,7 +131,7 @@ export const eventsData = [
     "image": "/events/page_10_img_0.png",
     "eligibility": "Grades IX-XII",
     "type": "Individual",
-    "description": "Draw the Wild. Imagine the Impossible. Get ready to paint the wild with imagination! From fierce creatures to magical landscapes, participants will blend realism with artistic fantasy to craft vibrant wildlife artworks bursting with colour, texture, and wonder.",
+    "description": "From fierce creatures to magical landscapes, participants will blend realism with artistic fantasy to craft vibrant wildlife artworks bursting with colour, texture, and wonder.",
     "guidelines": [
       "Eligibility: Grades IX-XII",
       "Event Type: Individual event (Two participants per school)",
@@ -138,7 +143,8 @@ export const eventsData = [
     "coordinator": {
       "name": "Mr. Manjunath H Kale",
       "phone": "9964288332"
-    }
+    },
+    "tagline": "Draw the Wild. Imagine the Impossible. Get ready to paint the wild with imagination!"
   },
   {
     "id": 7,
@@ -148,7 +154,7 @@ export const eventsData = [
     "category": "Literature & Comic Art",
     "eligibility": "Grades VI – VIII",
     "type": "Group",
-    "description": "Frames that Speak, Stories that Inspire! Unleash your imagination and bring your stories to life through the exciting world of comic art! Create engaging characters, vibrant scenes, and powerful messages through a series of illustrated panels.",
+    "description": "Unleash your imagination and bring your stories to life through the exciting world of comic art! Create engaging characters, vibrant scenes, and powerful messages through a series of illustrated panels.",
     "guidelines": [
       "Eligibility: Grades VI – VIII",
       "Event Type: Group Event (1 team per school, 2 participants)",
@@ -160,7 +166,8 @@ export const eventsData = [
     "coordinator": {
       "name": "Ms. Nimisha Nisha / Ms. Lakshmipriya",
       "phone": "9886833795"
-    }
+    },
+    "tagline": "Frames that Speak, Stories that Inspire!"
   },
   {
     "id": 8,
@@ -170,7 +177,7 @@ export const eventsData = [
     "category": "Fine Arts & Design",
     "eligibility": "Grades IX-XII",
     "type": "Group",
-    "description": "From Skin to Story, One Stroke at a Time. Beyond skin lies a canvas waiting to awaken. Through bold strokes, vivid hues, and boundless imagination, participants will blur the line between art and identity, turning faces into breathtaking visual narratives.",
+    "description": "Beyond skin lies a canvas waiting to awaken. Through bold strokes, vivid hues, and boundless imagination, participants will blur the line between art and identity, turning faces into breathtaking visual narratives.",
     "guidelines": [
       "Eligibility: Grades IX-XII",
       "Event Type: Group Event (One artist and one model per entry, max 2 entries per school)",
@@ -182,7 +189,8 @@ export const eventsData = [
     "coordinator": {
       "name": "Ms. Preethi Gupta / Ms. Hema H",
       "phone": "9110219207"
-    }
+    },
+    "tagline": "From Skin to Story, One Stroke at a Time."
   },
   {
     "id": 9,
@@ -192,7 +200,7 @@ export const eventsData = [
     "category": "Fine Arts & Design",
     "eligibility": "Grades IX-XII",
     "type": "Group",
-    "description": "Tradition in Lines, Magic in Design. More than patterns, it is poetry in henna. Watch tradition unfold through delicate lines and intricate artistry as every palm becomes a masterpiece of grace, culture, and timeless beauty.",
+    "description": "More than patterns, it is poetry in henna. Watch tradition unfold through delicate lines and intricate artistry as every palm becomes a masterpiece of grace, culture, and timeless beauty.",
     "guidelines": [
       "Eligibility: Grades IX-XII",
       "Event Type: Group Event (One designer and one partner model, max 2 entries per school)",
@@ -204,7 +212,8 @@ export const eventsData = [
     "coordinator": {
       "name": "Ms. Madhumita Sarkar",
       "phone": "9632140141"
-    }
+    },
+    "tagline": "Tradition in Lines, Magic in Design."
   },
   {
     "id": 10,
@@ -214,7 +223,7 @@ export const eventsData = [
     "category": "Fashion Runway Design",
     "eligibility": "Grades IX-XII",
     "type": "Group",
-    "description": "Where Style Meets Creativity. Fashion is identity in motion. Vogue Vista is a runway celebration where participants command the catwalk with confidence, displaying bold fashion narratives inspired by evolving trends, sustainability, and futuristic concepts.",
+    "description": "Vogue Vista is a runway celebration where participants command the catwalk with confidence, displaying bold fashion narratives inspired by evolving trends, sustainability, and futuristic concepts.",
     "guidelines": [
       "Eligibility: Grades IX-XII",
       "Event Type: Team event (6-10 participants per school)",
@@ -227,7 +236,8 @@ export const eventsData = [
     "coordinator": {
       "name": "Ms. Akansha Poddar / Ms. Sowjanya",
       "phone": "9873592435"
-    }
+    },
+    "tagline": "Where Style Meets Creativity. Fashion is identity in motion."
   },
   {
     "id": 11,
@@ -237,7 +247,7 @@ export const eventsData = [
     "category": "English Literature & Skit",
     "eligibility": "Grades IX – XII",
     "type": "Group",
-    "description": "Beyond the Story. Into the Perspective. \"One Story. Many Perspectives. Infinite Possibilities.\" Between the lines lie stories untold. Revisit iconic Shakespearean characters through fresh perspectives, uncovering hidden truths and reimagining timeless narratives for the stage.",
+    "description": "Between the lines lie stories untold. Revisit iconic Shakespearean characters through fresh perspectives, uncovering hidden truths and reimagining timeless narratives for the stage.",
     "guidelines": [
       "Eligibility: Students of Grades IX – XII",
       "Event Type: Group Event (1 team per school, 6–8 members)",
@@ -251,7 +261,8 @@ export const eventsData = [
     "coordinator": {
       "name": "Ms. Jiji Ranganathan / Ms. Neha Singh",
       "phone": "9019660616"
-    }
+    },
+    "tagline": "Beyond the Story. Into the Perspective. \"One Story. Many Perspectives. Infinite Possibilities.\""
   },
   {
     "id": 12,
@@ -261,7 +272,7 @@ export const eventsData = [
     "eligibility": "Grades IX-XII",
     "image": "/events/page_21_img_0.jpeg",
     "type": "Group",
-    "description": "समस्याओं पर दस्तक, समाधान की आहट - नुक्कड़ नाटक प्रतियोगिता।\nविषय: 'फ़ोन पर उंगली, ज़िंदगी फिसली: रील की लत, FOMO की पकड़, और हक़ीक़त से नाता टूटा' अथवा 'ऑनलाइन मुस्कान, डिजिटल रिश्ते, असली जिंदगी में फासले'।\nनुक्कड़ नाटक कला का एक स्थापित रूप है जो युवाओं के रचनात्मक कौशल को बढ़ावा देने और सामाजिक संदेश पहुँचाने के लिए मनोवैज्ञानिक सीमा को चुनौती देता है।",
+    "description": "विषय: 'फ़ोन पर उंगली, ज़िंदगी फिसली: रील की लत, FOMO की पकड़, और हक़ीक़त से नाता टूटा' अथवा 'ऑनलाइन मुस्कान, डिजिटल रिश्ते, असली जिंदगी में फासले'।\nनुक्कड़ नाटक कला का एक स्थापित रूप है जो युवाओं के रचनात्मक कौशल को बढ़ावा देने और सामाजिक संदेश पहुँचाने के लिए मनोवैज्ञानिक सीमा को चुनौती देता है।",
     "guidelines": [
       "यह एक सामूहिक गतिविधि है, जिसमें 8-10 प्रतिनिधि भाग ले सकते हैं। प्रति विद्यालय एक ही प्रविष्टि (IX-XII)",
       "प्रत्येक कक्षा से कम से कम एक प्रतिभागी का होना अनिवार्य।",
@@ -273,7 +284,8 @@ export const eventsData = [
     "coordinator": {
       "name": "Ms. Shashi Singh",
       "phone": "9325186073"
-    }
+    },
+    "tagline": "समस्याओं पर दस्तक, समाधान की आहट - नुक्कड़ नाटक प्रतियोगिता।"
   },
   {
     "id": 13,
@@ -283,7 +295,7 @@ export const eventsData = [
     "category": "Mime & Non-Verbal Drama",
     "eligibility": "Grades IX-XII",
     "type": "Group",
-    "description": "Where Silence Finds Its Voice. Where words fade, expression speaks. Through powerful gestures, striking expressions, and evocative movement, participants will transform silence into a compelling language of emotion and storytelling.",
+    "description": "Where words fade, expression speaks. Through powerful gestures, striking expressions, and evocative movement, participants will transform silence into a compelling language of emotion and storytelling.",
     "guidelines": [
       "Eligibility: Grades IX-XII",
       "Event Type: Team Event (6-8 participants per team)",
@@ -295,7 +307,8 @@ export const eventsData = [
     "coordinator": {
       "name": "Ms. Kamya Thareja / Ms. Anandita",
       "phone": "8950524217"
-    }
+    },
+    "tagline": "Where Silence Finds Its Voice."
   },
   {
     "id": 14,
@@ -305,7 +318,7 @@ export const eventsData = [
     "category": "Media & Reel Making",
     "eligibility": "Grades IX - XII",
     "type": "Group",
-    "description": "Create. Capture. Inspire. Got a story to tell in 60 seconds? This competition challenges young creators to use their editing skills, cameras, and unique perspectives to craft engaging reels that leave a lasting impression.",
+    "description": "This competition challenges young creators to use their editing skills, cameras, and unique perspectives to craft engaging reels that leave a lasting impression.",
     "guidelines": [
       "Eligibility: Grades IX to XII",
       "Event Type: Group Event (1 team per school, 4 participants)",
@@ -318,7 +331,8 @@ export const eventsData = [
     "coordinator": {
       "name": "Ms. Anusha Shanmughom / Ms. Gisha",
       "phone": "9686299867"
-    }
+    },
+    "tagline": "Create. Capture. Inspire. Got a story to tell in 60 seconds?"
   },
   {
     "id": 15,
@@ -328,7 +342,7 @@ export const eventsData = [
     "category": "Law & Humanities",
     "eligibility": "Grades XI - XII",
     "type": "Group",
-    "description": "Veritas v. Verdict - Where Precedence Meets Precision. Enter the arena of law and reason. In this simulated courtroom challenge, participants will argue cases with precision, defend perspectives with conviction, and showcase advocacy through logic.",
+    "description": "Enter the arena of law and reason. In this simulated courtroom challenge, participants will argue cases with precision, defend perspectives with conviction, and showcase advocacy through logic.",
     "guidelines": [
       "Eligibility: Grades XI-XII",
       "Event Type: Team Event (2 to 3 members per team)",
@@ -340,7 +354,8 @@ export const eventsData = [
     "coordinator": {
       "name": "Ms. Hena Ahmad",
       "phone": "7406886272"
-    }
+    },
+    "tagline": "Veritas v. Verdict - Where Precedence Meets Precision."
   },
   {
     "id": 16,
@@ -350,7 +365,7 @@ export const eventsData = [
     "category": "Business & Marketing",
     "eligibility": "Grades XI - XII",
     "type": "Group",
-    "description": "Brand it. Sell It. Own It. The Hype Hustle is a high-energy marketing and sales challenge where imagination drives business. Turn the ordinary into extraordinary by creating a memorable brand and pitching it with confidence.",
+    "description": "The Hype Hustle is a high-energy marketing and sales challenge where imagination drives business. Turn the ordinary into extraordinary by creating a memorable brand and pitching it with confidence.",
     "guidelines": [
       "Eligibility: Grades XI-XII",
       "Event Type: Group Event (1 team per school, 3-4 participants)",
@@ -361,7 +376,8 @@ export const eventsData = [
     "coordinator": {
       "name": "Ms. Teju L N",
       "phone": "9686515369"
-    }
+    },
+    "tagline": "Brand it. Sell It. Own It."
   },
   {
     "id": 17,
@@ -371,7 +387,7 @@ export const eventsData = [
     "category": "Social Science & Psychology",
     "eligibility": "Grades IX – XII",
     "type": "Group",
-    "description": "Mind Over Motive. Every mind has a story worth understanding. Beyond every action lies a mind waiting to be decoded. Explore the psychology of complex fictional characters by analyzing personality traits, hidden motives, and behaviors.",
+    "description": "Beyond every action lies a mind waiting to be decoded. Explore the psychology of complex fictional characters by analyzing personality traits, hidden motives, and behaviors.",
     "guidelines": [
       "Eligibility: Grades IX–XII",
       "Event Type: Group event (2–3 participants per team)",
@@ -383,7 +399,8 @@ export const eventsData = [
     "coordinator": {
       "name": "Ms. Divya P",
       "phone": "8086829569"
-    }
+    },
+    "tagline": "Mind Over Motive. Every mind has a story worth understanding."
   },
   {
     "id": 18,
@@ -393,7 +410,7 @@ export const eventsData = [
     "category": "Computer Coding",
     "eligibility": "Grades IX – XII",
     "type": "Group",
-    "description": "Fresh Code for a Greener Tomorrow. Where code meets conscience. EarthOS challenges participants to build technology-driven solutions for a sustainable future. Develop mini-apps, simulations, or games that inspire green choices.",
+    "description": "EarthOS challenges participants to build technology-driven solutions for a sustainable future. Develop mini-apps, simulations, or games that inspire green choices.",
     "guidelines": [
       "Eligibility: Grades IX–XII",
       "Event Type: Team Event (1 team per school, 2 participants)",
@@ -405,7 +422,8 @@ export const eventsData = [
     "coordinator": {
       "name": "Ms. Devika N",
       "phone": "9886350455"
-    }
+    },
+    "tagline": "Fresh Code for a Greener Tomorrow. Where code meets conscience."
   },
   {
     "id": 19,
@@ -415,7 +433,7 @@ export const eventsData = [
     "category": "Computer Coding",
     "eligibility": "Grades VI-VIII",
     "type": "Group",
-    "description": "Small Code Big Impact. Build. Code. Transform. TerraTech is where coding and collaboration converge to create digital prototypes for a sustainable future. Design a block-coded app prototype that addresses ecological challenges.",
+    "description": "TerraTech is where coding and collaboration converge to create digital prototypes for a sustainable future. Design a block-coded app prototype that addresses ecological challenges.",
     "guidelines": [
       "Eligibility: Grades VI-VIII",
       "Event Type: Team Event (1 team per school, 2 participants)",
@@ -427,6 +445,7 @@ export const eventsData = [
     "coordinator": {
       "name": "Ms. Sangeeta Sahoo",
       "phone": "8105977003"
-    }
+    },
+    "tagline": "Small Code Big Impact. Build. Code. Transform."
   }
 ];

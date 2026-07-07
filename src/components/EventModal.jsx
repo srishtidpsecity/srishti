@@ -14,8 +14,7 @@ export default function EventModal({ event, onClose }) {
   const tabs = [
     { id: 'overview', label: 'Overview', icon: <FileText className="w-4 h-4" /> },
     { id: 'rules', label: 'Rules & Format', icon: <Settings className="w-4 h-4" /> },
-    { id: 'contacts', label: 'In-Charge Contacts', icon: <Phone className="w-4 h-4" /> },
-    { id: 'register', label: 'How to Register', icon: <Sparkles className="w-4 h-4" /> }
+    { id: 'contacts', label: 'In-Charge Contacts', icon: <Phone className="w-4 h-4" /> }
   ];
 
   // Base glowing glass class (no category specific colors)
@@ -74,6 +73,11 @@ export default function EventModal({ event, onClose }) {
             <h2 className="font-cinzel text-xl md:text-3xl font-bold text-white leading-snug">
               {event.name}
             </h2>
+            {event.tagline && (
+              <p className="font-raleway text-sm md:text-base italic text-white mt-2">
+                {event.tagline}
+              </p>
+            )}
           </div>
 
           {/* Close Button */}
@@ -211,37 +215,7 @@ export default function EventModal({ event, onClose }) {
                 </div>
               )}
 
-              {/* 4. REGISTER TAB */}
-              {activeTab === 'register' && (
-                <div className="space-y-6">
-                  <div className="space-y-2">
-                    <h4 className="font-cinzel text-white font-bold">Challan Summary</h4>
-                    <p className="font-raleway text-xs text-white">
-                      You can register your students or teams by completing the payment for this event and submitting details.
-                    </p>
-                  </div>
 
-                  <div className="grid grid-cols-2 gap-4 border border-white/10 rounded-lg p-4 font-mono text-xs">
-                    <div className="border-r border-white/10 pr-2">
-                      <span className="text-white uppercase block text-[9px] mb-1">Registration Type</span>
-                      <span className="text-white font-semibold">{event.type} Event</span>
-                    </div>
-                    <div>
-                      <span className="text-white uppercase block text-[9px] mb-1">Fee Amount</span>
-                      <span className="text-[#06b6d4] font-bold text-sm">₹{price}/-</span>
-                    </div>
-                  </div>
-
-                  <div className="space-y-4">
-                    <h5 className="font-cinzel text-xs font-semibold text-white">Payment Checklist:</h5>
-                    <ul className="list-disc pl-5 space-y-1.5 text-xs text-white">
-                      <li>Pay ₹{price} online using Canara Bank payment details in the registration section.</li>
-                      <li>Launch the official registration link and fill out the event submission form.</li>
-                      <li>Mail a Bonafide letter containing names and payment receipt screenshot to the organizers.</li>
-                    </ul>
-                  </div>
-                </div>
-              )}
             </motion.div>
           </AnimatePresence>
         </div>
