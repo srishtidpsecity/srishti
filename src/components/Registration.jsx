@@ -42,7 +42,7 @@ export default function Registration() {
     },
     {
       title: "Calculate & Pay",
-      desc: "Individual events are Rs. 300/- each; group events are Rs. 750/- each. Pay via online bank transfer to Canara Bank."
+      desc: "Individual events are Rs. 300/- each; group events are Rs. 750/- each."
     },
     {
       title: "Email Bonafide & Proof",
@@ -108,8 +108,8 @@ export default function Registration() {
           </div>
 
           {/* Fee Calculator (Right Column) wrapped in FloatingWrapper with glowing-glass */}
-          <div className="lg:col-span-6 h-full">
-            <FloatingWrapper className="rounded-xl glowing-glass border border-cyan-500/10 relative h-full flex flex-col overflow-hidden">
+          <div className="lg:col-span-6">
+            <FloatingWrapper className="rounded-xl glowing-glass border border-cyan-500/10 relative flex flex-col overflow-hidden">
               <div className="inner-rim" />
               <div className="p-8 md:p-10 relative z-10 flex-grow flex flex-col">
                 <div className="absolute top-0 left-0 w-full h-[2px] bg-gradient-to-r from-transparent via-[#06b6d4]/30 to-transparent" />
@@ -123,7 +123,7 @@ export default function Registration() {
                   {/* Events Checklist Selection */}
                   <div className="space-y-2 flex-grow flex flex-col min-h-0">
                     <label className="block font-mono text-xs uppercase tracking-wider text-white mb-2 shrink-0">Select Events to Calculate Fee</label>
-                    <div className="flex-grow overflow-y-auto border border-cyan-500/10 rounded bg-[#050505] p-3 space-y-2 custom-scrollbar min-h-[300px]">
+                    <div className="overflow-y-auto border border-cyan-500/10 rounded bg-[#050505] p-3 space-y-2 custom-scrollbar max-h-[220px]">
                       {eventsData.map((ev) => {
                         const isSelected = selectedEvents.includes(ev.id);
                         const price = ev.type === 'Individual' ? 300 : 750;
