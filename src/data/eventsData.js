@@ -166,8 +166,8 @@ export const eventsData = [
       "Requirements: Bring your own drawing and coloring materials. A3 sheets will be provided by the host school."
     ],
     "coordinator": {
-      "name": "Ms. Nimisha Nisha / Ms. Lakshmipriya",
-      "phone": "9886833795"
+      "name": "Ms. Nimisha Nisha / Ms. Lakshmipriya A S",
+      "phone": "9886833795 / 9496688577"
     },
     "tagline": "Frames that Speak, Stories that Inspire!"
   },
@@ -190,7 +190,7 @@ export const eventsData = [
     ],
     "coordinator": {
       "name": "Ms. Preethi Gupta / Ms. Hema H",
-      "phone": "9110219207"
+      "phone": "9110219207 / 9148545826"
     },
     "tagline": "From Skin to Story, One Stroke at a Time."
   },
@@ -239,7 +239,7 @@ export const eventsData = [
       "Language: English"
     ],
     "coordinator": {
-      "name": "Ms. Akansha Poddar / Ms. Sowjanya",
+      "name": "Ms. Akansha Poddar / Ms. Sowjanya Karri",
       "phone": "9873592435 / 7207285659"
     },
     "tagline": "Where Style Meets Creativity."
@@ -265,7 +265,7 @@ export const eventsData = [
     ],
     "coordinator": {
       "name": "Ms. Jiji Ranganathan / Ms. Neha Singh",
-      "phone": "9019660616"
+      "phone": "9019660616 / 9672176171"
     },
     "tagline": "Beyond the Story. Into the Perspective."
   },
@@ -311,8 +311,8 @@ export const eventsData = [
       "Language: No verbal communication is allowed during the performance."
     ],
     "coordinator": {
-      "name": "Ms. Kamya Thareja / Ms. Anandita",
-      "phone": "8950524217"
+      "name": "Ms. Kamya Thareja / Ms. Anandita Bandyopadhyay",
+      "phone": "8950524217 / 9874085520"
     },
     "tagline": "Where Silence Finds Its Voice."
   },
@@ -330,13 +330,13 @@ export const eventsData = [
       "Event Type: Group Event (1 team per school, 4 participants)",
       "Theme: Freedom Through My Lens -Freedom is not merely seen—it is felt, lived, and imagined. Capture its essence through a 60-second reel that reflects your vision of patriotism, unity, responsibility, and the dreams you hold for India. One lens. Infinite perspectives.",
       "Time duration: 1 hour 30 minutes total (capturing and editing on campus)",
-      "Task: Craft an original 60-90 second vertical (9:16) reel using a smartphone only.",
+      "Task: More than a reel—an expression in motion. Craft an original visual narrative (60-90 seconds and vertical 9:16) that blends storytelling, sound, transitions, and artistic finesse to deliver a message that resonates. Let creativity lead, and let every second leave an impact.",
       "Requirements: Bring one smartphone and one laptop per team. Basic editing only (cuts, transitions, text, music). No pre-made templates or excessive AI filters.",
       "Note: All recorded campus footage remains host school property."
     ],
     "coordinator": {
-      "name": "Ms. Anusha Shanmughom / Ms. Gisha",
-      "phone": "9686299867"
+      "name": "Ms. Anusha Shanmughom / Ms. Gisha Thomas",
+      "phone": "9686299867 / 9431517431"
     },
     "tagline": "Create. Capture. Inspire."
   },
@@ -355,7 +355,7 @@ export const eventsData = [
       "Theme: Formal Attire",
       "Time duration: 7 minutes per round",
       "Round 1: Case study released at 8:00 PM the night prior. Round 2: Two winning teams from Round 1 will be eligible. The Case Study will be given on the day of the event.",
-      "Requirements: Good knowledge of the Indian Legal System and codified laws. No AI tools permitted."
+      "Requirements: Good knowledge of the Indian Legal System and codified laws. All research for Round 1 has to be completed beforehand. No extra preparation time will be given for Round 1.No AI tools permitted. Search engines may only be used during the rebuttal and the preparation for Round 2."
     ],
     "coordinator": {
       "name": "Ms. Hena Ahmad",
@@ -371,13 +371,14 @@ export const eventsData = [
     "category": "Business & Marketing",
     "eligibility": "Grades XI - XII",
     "type": "Group",
-    "description": "The Hype Hustle is a high-energy marketing and sales challenge where imagination drives business. Turn the ordinary into extraordinary by creating a memorable brand and pitching it with confidence.",
+    "description": "The Hype Hustle is a high-energy marketing and sales challenge where imagination drives business. Turn the ordinary into extraordinary by creating a memorable brand and pitching it with confidence. In this game, the boldest ideas create the biggest hype.",
     "guidelines": [
       "Eligibility: Grades XI-XII",
       "Event Type: Group Event (1 team per school, 3-4 participants)",
       "Time duration: Round 1 (Marketing): 5 minutes pitch; Round 2 (Sales): 7 minutes pitch.",
       "Task: Round 1: Create a brand from scratch for a randomly assigned object (naming, positioning). Round 2: Pitch the brand to judges to secure sales.",
-      "Requirements: One laptop and one hotspot phone allowed per team. All ideas, logos, taglines, and graphics must be created on-site. No AI usage."
+      "Requirements: One laptop and one hotspot phone allowed per team. All ideas, logos, taglines, and graphics must be created on-site. No AI usage.",
+      "Language: English"
     ],
     "coordinator": {
       "name": "Ms. Teju L N",
@@ -396,7 +397,7 @@ export const eventsData = [
     "description": "Every mind has a story worth understanding. Beyond every action lies a mind waiting to be decoded. Explore the psychology of complex fictional characters by analyzing personality traits, hidden motives, and behaviors.",
     "guidelines": [
       "Eligibility: Grades IX–XII",
-      "Event Type: Group event (2–3 participants per team)",
+      "Event Type: Group event (2–3 participants per team and one team per school)",
       "Theme: Behaviour, Motivation, and Responsibility",
       "Time Duration: 60–75 minutes",
       "Task: Teams receive a psychological case file of a randomly assigned character from movies/anime/literature. Analyze personality and motives to formulate a responsibility verdict supported by evidence.",
