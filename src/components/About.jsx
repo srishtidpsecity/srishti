@@ -48,6 +48,10 @@ export default function About() {
       icon: <Info className="w-5 h-5 text-[#00f3ff]" />,
       text: "For further clarifications regarding the competitions, please contact the respective teacher coordinator between 3 pm and 5 pm.",
     },
+    {
+      icon: <Info className="w-5 h-5 text-[#00f3ff]" />,
+      text: "For events requiring songs or music, schools are requested to bring them on a pen drive. The pen drive should be submitted to the respective event coordinator before the commencement of the competition.",
+    }
   ];
 
   return (
@@ -76,9 +80,8 @@ export default function About() {
               <p>Greetings from DPS Electronic City!</p>
               <p>When the curtains rise, destinies take the stage. When the spotlight awakens, brilliance finds its voice. And when imagination takes flight, masterpieces are born.</p>
               <p>With immense pride and heartfelt delight, Delhi Public School Electronic City cordially invites your esteemed institution to grace the grand celebration of artistry, innovation, and youthful excellence at the Inter-School Fest – Srishti: A Splash of Creativity 2026.</p>
-              <p>Srishti 6.0 is an ode to the spirit of creation; a celebration where passion finds its purpose, curiosity kindles innovation, and excellence is not merely pursued but magnificently embodied. It is a vibrant confluence of artists, performers, thinkers, and dreamers who dare to reimagine the ordinary and transform it into the extraordinary. So, prepare to be a part of the journey into an enchanting realm where imagination transcends boundaries, dreams bloom into reality, and every heartbeat echoes with the rhythm of creativity, collaboration, and boundless enthusiasm. Every applause shall celebrate perseverance, every smile shall reflect accomplishment, and every moment shall become a cherished memory etched forever in the hearts of those who dare to dream. Together, let us transform Srishti: A Splash of Creativity 2026 into a timeless symphony of creativity. </p>
-              <p>Srishti 6.0 is on Friday, 14 August 2026, from 8:30 a.m. onwards, at Delhi Public School Electronic City, Bengaluru. Enclosed with this invitation is the E-Brochure, offering a glimpse into the array of events. Each event description is accompanied by its respective registration link, conveniently provided at the end, to facilitate a seamless registration process. Schools should email the screenshot of the payment made and the registration details (a copy is attached) to <h6 className="font-garamond text-lg md:text-2xl text-white leading-loose space-y-8 tracking-wide">srishti@dpsecity.com</h6></p>
-              <p>Let's embark on this adventure together and paint the canvas of memories that will last a lifetime. With anticipation and excitement, we look forward to an overwhelming response.</p>
+              <p>Srishti 6.0 is an ode to the spirit of creation; a celebration where passion finds its purpose, curiosity kindles innovation, and excellence is not merely pursued but magnificently embodied. It is a vibrant confluence of artists, performers, thinkers, and dreamers who dare to reimagine the ordinary and transform it into the extraordinary. So, prepare to be a part of the journey into an enchanting realm where imagination transcends boundaries, dreams bloom into reality, and every heartbeat echoes with the rhythm of creativity, collaboration, and boundless enthusiasm.</p>
+              <p>With anticipation and excitement, we look forward to an overwhelming response.</p>
             </div>
 
             <div className="pt-4 border-t border-[#00f3ff]/10">
