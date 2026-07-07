@@ -63,11 +63,11 @@ export default function EventsSection() {
   const filteredEvents = eventsData.filter((event) => {
     const matchesSearch = event.name.toLowerCase().includes(searchQuery.toLowerCase()) ||
       event.description.toLowerCase().includes(searchQuery.toLowerCase());
-    
+
     const mappedGroup = mapDbCategoryToGroup(event.category);
     const matchesCategory = selectedCategory === 'All' || mappedGroup === selectedCategory;
 
-    const matchesGrade = selectedGrade === 'All' || 
+    const matchesGrade = selectedGrade === 'All' ||
       (selectedGrade === 'VI-VIII' && event.eligibility.includes('VI') && event.eligibility.includes('VIII')) ||
       (selectedGrade === 'IX-XII' && (event.eligibility.includes('IX') || event.eligibility.includes('XII')));
 
@@ -76,12 +76,12 @@ export default function EventsSection() {
 
   return (
     <section id="events" className="relative py-24 min-h-screen">
-      
+
       {/* Decorative top border overlay */}
       <div className="absolute top-0 left-0 w-full h-[1px] bg-gradient-to-r from-transparent via-[#00f3ff]/20 to-transparent" />
 
       <div className="container-width relative z-10">
-        
+
         {/* Section Header */}
         <div className="text-center space-y-6 mb-24">
           <span className="font-mono text-xs uppercase tracking-[0.25em] text-[#00f3ff] flex items-center justify-center gap-2">
@@ -93,7 +93,7 @@ export default function EventsSection() {
             Explore Competitions
           </h2>
           <p className="font-garamond italic text-white text-sm md:text-base max-w-xl mx-auto">
-            Choose from 25 disciplines spanning creative writing, languages, robotics, law, performing arts, and design.
+            Choose from 25 disciplines spanning languages, coding, law, performing arts, and design.
           </p>
           <div className="w-16 h-[1.5px] bg-[#00f3ff] mx-auto mt-4" />
         </div>
@@ -103,7 +103,7 @@ export default function EventsSection() {
           <div className="inner-rim" />
           <div className="flex flex-col lg:flex-row gap-8 items-center justify-between relative z-10">
             <div className="absolute top-0 left-6 w-20 h-[1.5px] bg-[#00f3ff]/30" />
-            
+
             {/* Search Box */}
             <div className="relative w-full lg:w-96">
               <Search className="absolute left-4 top-1/2 -translate-y-1/2 w-4 h-4 text-white" />
@@ -125,11 +125,10 @@ export default function EventsSection() {
                   <button
                     key={grade}
                     onClick={() => setSelectedGrade(grade)}
-                    className={`px-4 py-1.5 rounded text-xs font-mono border transition-all ${
-                      selectedGrade === grade
-                        ? 'border-[#00f3ff] bg-[#00f3ff] text-[#050505] font-bold'
-                        : 'border-[#e0ffff]/10 hover:border-[#00f3ff]/40 text-white hover:text-[#e0ffff]'
-                    }`}
+                    className={`px-4 py-1.5 rounded text-xs font-mono border transition-all ${selectedGrade === grade
+                      ? 'border-[#00f3ff] bg-[#00f3ff] text-[#050505] font-bold'
+                      : 'border-[#e0ffff]/10 hover:border-[#00f3ff]/40 text-white hover:text-[#e0ffff]'
+                      }`}
                   >
                     {grade === 'All' ? 'All Grades' : `Grades ${grade}`}
                   </button>
@@ -145,11 +144,10 @@ export default function EventsSection() {
             <button
               key={cat}
               onClick={() => setSelectedCategory(cat)}
-              className={`px-5 py-2.5 rounded-full font-cinzel text-xs tracking-wider transition-all duration-300 ${
-                selectedCategory === cat
-                  ? 'bg-[#06b6d4] text-[#050505] font-bold shadow-[0_4px_15px_rgba(6,182,212,0.4)] scale-[1.02] border border-[#e0ffff]'
-                  : 'bg-white/[0.02] border border-cyan-500/10 text-white hover:text-[#fff] hover:border-cyan-500/40'
-              }`}
+              className={`px-5 py-2.5 rounded-full font-cinzel text-xs tracking-wider transition-all duration-300 ${selectedCategory === cat
+                ? 'bg-[#06b6d4] text-[#050505] font-bold shadow-[0_4px_15px_rgba(6,182,212,0.4)] scale-[1.02] border border-[#e0ffff]'
+                : 'bg-white/[0.02] border border-cyan-500/10 text-white hover:text-[#fff] hover:border-cyan-500/40'
+                }`}
             >
               {cat}
             </button>
@@ -180,7 +178,7 @@ export default function EventsSection() {
                   {/* Glowing Glass card with 3D Float */}
                   <FloatingWrapper className={`rounded-[1.5rem] glowing-glass p-8 flex flex-col cursor-pointer h-full group relative overflow-hidden ${glowClass}`}>
                     <div className="inner-rim" />
-                    
+
                     {/* Decorative background grid visual inside card */}
                     <div className="absolute inset-0 bg-[linear-gradient(rgba(0,243,255,0.01)_1px,transparent_1px),linear-gradient(90deg,rgba(0,243,255,0.01)_1px,transparent_1px)] bg-[size:16px_16px] pointer-events-none" />
 

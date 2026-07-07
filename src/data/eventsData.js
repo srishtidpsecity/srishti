@@ -229,7 +229,7 @@ export const eventsData = [
     "description": "Fashion is identity in motion. Vogue Vista is a runway celebration where participants command the catwalk with confidence, displaying bold fashion narratives inspired by evolving trends and cultural influences.",
     "guidelines": [
       "Eligibility: Grades IX-XII",
-      "Event Type: Team event (6-10 participants per school)",
+      "Event Type: Group Event (6-10 participants per school and one team per school)",
       "The team should have at least one representative from each of the suggested grades.",
       "Theme: Futuristic attire with a touch of tradition. Blends innovation, sustainability, technology, and evolving cultural identities.",
       "Time duration: 5 minutes total (1 min introduction, 1 min setup, 3 min ramp performance).",
@@ -303,7 +303,7 @@ export const eventsData = [
     "description": "Where words fade, expression speaks. Through powerful gestures, striking expressions, and evocative movement, participants will transform silence into a compelling language of emotion and storytelling.",
     "guidelines": [
       "Eligibility: Grades IX-XII",
-      "Event Type: Team Event (6-8 participants per team)",
+      "Event Type: Group Event (6-8 participants per team and one team per school)",
       "Theme: Contemporary Issues / Mental Health / Balancing Technology and Real Connections / Online Validation and the need for likes, shares, and subscriptions.",
       "Time duration: 2 minutes setup + 4 minutes performance",
       "Task: Present a mime act using gestures and expressions without any dialogue.",
@@ -417,14 +417,15 @@ export const eventsData = [
     "category": "Computer Coding",
     "eligibility": "Grades IX – XII",
     "type": "Group",
-    "description": "Where code meets conscience. Byte Craft challenges participants to transform innovation into impact by building technology-driven solutions for a sustainable future. Through interactive apps, simulations, or games, teams will turn ideas into digital experiences that inspire greener choices and meaningful change.",
+    "description": "Where code meets conscience. EarthOS challenges participants to transform innovation into impact by building technology-driven solutions for a sustainable future. Through interactive apps, simulations, or games, teams will turn ideas into digital experiences that inspire greener choices and meaningful change.",
     "guidelines": [
       "Eligibility: Grades IX–XII",
       "Event Type: Team Event (1 team per school, 2 participants)",
       "Duration: 2 Hours coding",
       "Theme: Eco-Tech (Building tools for energy saving, recycling, climate, or wildlife protection)",
       "Task: Build a live prototype (e.g., carbon calculator, sorting game, energy tracker) using Python or JavaScript only.",
-      "Requirements: Zero prior code or templates allowed. Coding must be done live on host machines. Followed by a 2-minute project pitch."
+      "Requirements: Zero prior code or templates allowed. Coding must be done live on host machines. Followed by a 2-minute project pitch.",
+      "Presentation: Deliver a brief 2-minute presentation on the chosen topic: \n\t❖ One team member should explain the environmental issue being addressed. \n\t❖ The other team member should present the proposed solution and demonstrate its features."
     ],
     "coordinator": {
       "name": "Ms. Devika N",
@@ -446,8 +447,12 @@ export const eventsData = [
       "Event Type: Team Event (1 team per school, 2 participants)",
       "Duration: 2 Hours coding",
       "Theme: Eco-Tech (energy saving, recycling, conservation, climate awareness)",
-      "Task: Build a live mobile app prototype in MIT App Inventor addressing the theme (min 5 screens).",
-      "Requirements: Developed live on-site from scratch. Followed by a 2-minute pitch explaining the app's features."
+      "Task: Participants must build a live mini-app, interactive simulation, or game that addresses an eco-friendly goal, such as:\n\t❖ Carbon Footprint Calculator \n\t❖ Recycling Sorter Game \n\t❖ Home Energy-Saving Tracker \n\t❖ Wildlife Conservation Awareness Tool \n\t❖ Climate Change Education App",
+      "Zero Prior Code: Teams are not allowed to bring any pre-written code, templates, libraries, or code snippets. Participants are not allowed to bring or use their own laptops. If any specific software/module is needed, please contact the teacher coordinator.",
+      "Programming Languages: Design an original app using MIT App Inventor.",
+      "Live Coding: The entire solution must be developed during the event duration.",
+      "Deliverables: Submit the final live-coded file.",
+      "Presentation: Deliver a brief 2-minute presentation on the chosen topic:\n\t❖ One team member should explain the environmental issue being addressed. \n\t❖ The other team member should present the proposed solution and demonstrate its features."
     ],
     "coordinator": {
       "name": "Ms. Sangeeta Sahoo",

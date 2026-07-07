@@ -42,11 +42,7 @@ export default function Registration() {
     },
     {
       title: "Calculate & Pay",
-      desc: "Individual events are Rs. 300/- each; group events are Rs. 750/- each."
-    },
-    {
-      title: "Email Bonafide & Proof",
-      desc: "Email a Bonafide letter signed by your Principal with participant details and a payment screenshot to srishti@dpsecity.com."
+      desc: "Individual events are Rs. 300/- each; Group events are Rs. 750/- each."
     }
   ];
 
@@ -101,7 +97,7 @@ export default function Registration() {
               <div className="inner-rim" />
               <Mail className="w-5 h-5 text-[#06b6d4] mt-0.5" />
               <div className="font-raleway text-white relative z-10">
-                <strong>Submission Email:</strong> Schools should send a confirmation email to <a href={`mailto:srishti@dpsecity.com`} className="text-[#06b6d4] underline font-mono">srishti@dpsecity.com</a>, including a bona fide letter with the registration details, the particulars of all participants in different events and a screenshot of the payment made.
+                <strong>Submission Email:</strong> Schools should send a confirmation email to <a href={`mailto:srishti@dpsecity.com`} className="text-[#06b6d4] underline font-mono">srishti@dpsecity.com</a>, including a bona fide letter with the registration details, the particulars of all participants in different events.
               </div>
             </div>
 

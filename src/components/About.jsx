@@ -30,7 +30,7 @@ export default function About() {
     },
     {
       icon: <ShieldAlert className="w-5 h-5 text-[#00f3ff]" />,
-      text: "Wear school uniform (or prepared costumes) and school ID cards at all times.",
+      text: "Wear school uniform (or the desired attire as per the respective event) and school ID cards at all times.",
     },
     {
       icon: <HelpCircle className="w-5 h-5 text-[#00f3ff]" />,
