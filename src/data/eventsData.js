@@ -12,7 +12,7 @@ export const eventsData = [
     "guidelines": [
       "Eligibility: Grades VI - X",
       "Event Type: Group event (1 team per school)",
-      "No. of participants: 8 - 10 participants per team",
+      "No. of participants: 6 - 10 participants per team",
       "The team should have at least one representative from each of the grades",
       "Theme: A harmonic fusion of northern & southern Indian folk dances",
       "Task: Each team should be divided into two distinct groups of dancers, representing northern and southern Indian folk dance.",
@@ -63,8 +63,7 @@ export const eventsData = [
     "description": "Who says great food needs fire? SAVOR challenges participants to craft delicious, creative dishes using uncooked ingredients and maximum imagination. From plating to flavour, every element should impress.",
     "guidelines": [
       "Eligibility: Grades VI - VIII",
-      "Event Type: Group event",
-      "No of participants: Maximum of 2 teams per school (with 2 participants per team)",
+      "Event Type: Group event (2 participants per team and 2 teams per school)",
       "Theme: Multi-cuisine fusion",
       "Time duration: 40 minutes",
       "Task: Use only uncooked ingredients, assemble, garnish and serve",
