@@ -8,7 +8,7 @@ export const eventsData = [
     "category": "Folk Dance Fusion",
     "eligibility": "Grades VI - X",
     "type": "Group",
-    "description": "The challenge lies in harmonising two vibrant streams of Indian folk tradition: one embodying the flamboyant energy of North Indian folk dance, the other channelling the profound cadence of South Indian folk dance. The two distinct styles must engage in a captivating jugalbandi before merging into one breathtaking finale—proving that diverse roots can create one beautiful expression.",
+    "description": "Dance is a poetry of which each movement is a word. The challenge lies in harmonising two vibrant streams of Indian folk tradition: one embodying the flamboyant energy of North Indian folk dance, the other channelling the profound cadence of South Indian folk dance. The two distinct styles must engage in a captivating jugalbandi before merging into one breathtaking finale—proving that diverse roots can create one beautiful expression.",
     "guidelines": [
       "Eligibility: Grades VI - X",
       "Event Type: Group event (1 team per school)",
@@ -26,7 +26,7 @@ export const eventsData = [
       "name": "Mr. Vincent Paul",
       "phone": "7411186339"
     },
-    "tagline": "“Dance is a poetry of which each movement is a word.”"
+    "tagline": "Uniting Regional Rhythms"
   },
   {
     "id": 2,
@@ -36,7 +36,7 @@ export const eventsData = [
     "category": "Folk Music Fusion",
     "eligibility": "Grades VI-VIII",
     "type": "Group",
-    "description": "Participants will blend authentic folk music from two or more Indian states into one powerful performance, where distinct melodies and rhythms come together in perfect harmony.",
+    "description": "Let your voice echo across cultures. Participants will blend authentic folk music from two or more Indian states into one powerful performance, where distinct melodies and rhythms come together in perfect harmony.",
     "guidelines": [
       "Eligibility: Grades VI-VIII",
       "Event Type: Group Event (1 team per school)",
@@ -50,7 +50,7 @@ export const eventsData = [
       "name": "Ms. Bhawna Rawat",
       "phone": "9901622924"
     },
-    "tagline": "Let your voice echo across cultures."
+    "tagline": "Echoes of Tradition, Woven in Rhythm"
   },
   {
     "id": 3,
@@ -60,7 +60,7 @@ export const eventsData = [
     "category": "Cooking Without Fire",
     "eligibility": "Grades VI - VIII",
     "type": "Group",
-    "description": "SAVOR challenges participants to craft delicious, creative dishes using uncooked ingredients and maximum imagination. From plating to flavour, every element should impress.",
+    "description": "Who says great food needs fire? SAVOR challenges participants to craft delicious, creative dishes using uncooked ingredients and maximum imagination. From plating to flavour, every element should impress.",
     "guidelines": [
       "Eligibility: Grades VI - VIII",
       "Event Type: Group event",
@@ -74,7 +74,7 @@ export const eventsData = [
       "name": "Ms. Kavita Arora / Ms. Aparna",
       "phone": "9772153109 / 9538200091"
     },
-    "tagline": "Who says great food needs fire?"
+    "tagline": "No Flame, All Flair!!"
   },
   {
     "id": 4,
@@ -84,7 +84,7 @@ export const eventsData = [
     "category": "Fine Arts & Design",
     "eligibility": "Grades VI – VIII",
     "type": "Pair",
-    "description": "In this exciting challenge, teamwork meets creativity as two participants build one artwork—without communication and without knowing the full canvas. The final reveal promises surprises, imagination, and brilliance.",
+    "description": "Can you create magic without seeing the whole picture? In this exciting challenge, teamwork meets creativity as two participants build one artwork—without communication and without knowing the full canvas. The final reveal promises surprises, imagination, and brilliance.",
     "guidelines": [
       "Eligibility: Grades VI – VIII",
       "Event Type: Pair event (1 team per school with 2 participants)",
@@ -97,7 +97,7 @@ export const eventsData = [
       "name": "Ms. Prasanna Bathula",
       "phone": "7259573891"
     },
-    "tagline": "Can you create magic without seeing the whole picture?"
+    "tagline": "Two Artists. One Canvas. Zero Words."
   },
   {
     "id": 5,
@@ -107,7 +107,7 @@ export const eventsData = [
     "category": "Patriotic Music Fusion",
     "eligibility": "Grades IX-XII",
     "type": "Group",
-    "description": "Calling all music enthusiasts to feature a vibrant fusion of Hindi and English music inspired by the spirit of the Indian tricolour (Saffron, White, Green) in a performance bursting with energy.",
+    "description": "Feel the beat of patriotism come alive! Calling all music enthusiasts to feature a vibrant fusion of Hindi and English music inspired by the spirit of the Indian tricolour (Saffron, White, Green) in a performance bursting with energy.",
     "guidelines": [
       "Eligibility: Grades IX-XII",
       "Event Type: Group event (1 team per school)",
@@ -121,7 +121,7 @@ export const eventsData = [
       "name": "Ms. Bhawna Rawat",
       "phone": "9901622924"
     },
-    "tagline": "Three Colours. One Rhythm. Louder beats. Stronger pride. One nation. Feel the beat of patriotism come alive!"
+    "tagline": "Three Colours. One Rhythm."
   },
   {
     "id": 6,
@@ -131,7 +131,7 @@ export const eventsData = [
     "image": "/events/page_10_img_0.png",
     "eligibility": "Grades IX-XII",
     "type": "Individual",
-    "description": "From fierce creatures to magical landscapes, participants will blend realism with artistic fantasy to craft vibrant wildlife artworks bursting with colour, texture, and wonder.",
+    "description": "Get ready to paint the wild with imagination!From fierce creatures to magical landscapes, participants will blend realism with artistic fantasy to craft vibrant wildlife artworks bursting with colour, texture, and wonder.",
     "guidelines": [
       "Eligibility: Grades IX-XII",
       "Event Type: Individual event (Two participants per school)",
@@ -144,7 +144,7 @@ export const eventsData = [
       "name": "Mr. Manjunath H Kale",
       "phone": "9964288332"
     },
-    "tagline": "Draw the Wild. Imagine the Impossible. Get ready to paint the wild with imagination!"
+    "tagline": "Draw the Wild. Imagine the Impossible."
   },
   {
     "id": 7,
@@ -223,7 +223,7 @@ export const eventsData = [
     "category": "Fashion Runway Design",
     "eligibility": "Grades IX-XII",
     "type": "Group",
-    "description": "Vogue Vista is a runway celebration where participants command the catwalk with confidence, displaying bold fashion narratives inspired by evolving trends, sustainability, and futuristic concepts.",
+    "description": "Fashion is identity in motion. Vogue Vista is a runway celebration where participants command the catwalk with confidence, displaying bold fashion narratives inspired by evolving trends, sustainability, and futuristic concepts.",
     "guidelines": [
       "Eligibility: Grades IX-XII",
       "Event Type: Team event (6-10 participants per school)",
@@ -237,7 +237,7 @@ export const eventsData = [
       "name": "Ms. Akansha Poddar / Ms. Sowjanya",
       "phone": "9873592435"
     },
-    "tagline": "Where Style Meets Creativity. Fashion is identity in motion."
+    "tagline": "Where Style Meets Creativity."
   },
   {
     "id": 11,
@@ -247,7 +247,7 @@ export const eventsData = [
     "category": "English Literature & Skit",
     "eligibility": "Grades IX – XII",
     "type": "Group",
-    "description": "Between the lines lie stories untold. Revisit iconic Shakespearean characters through fresh perspectives, uncovering hidden truths and reimagining timeless narratives for the stage.",
+    "description": "\"One Story. Many Perspectives. Infinite Possibilities.\"Between the lines lie stories untold. Revisit iconic Shakespearean characters through fresh perspectives, uncovering hidden truths and reimagining timeless narratives for the stage.",
     "guidelines": [
       "Eligibility: Students of Grades IX – XII",
       "Event Type: Group Event (1 team per school, 6–8 members)",
@@ -262,7 +262,7 @@ export const eventsData = [
       "name": "Ms. Jiji Ranganathan / Ms. Neha Singh",
       "phone": "9019660616"
     },
-    "tagline": "Beyond the Story. Into the Perspective. \"One Story. Many Perspectives. Infinite Possibilities.\""
+    "tagline": "Beyond the Story. Into the Perspective."
   },
   {
     "id": 12,
@@ -285,7 +285,7 @@ export const eventsData = [
       "name": "Ms. Shashi Singh",
       "phone": "9325186073"
     },
-    "tagline": "समस्याओं पर दस्तक, समाधान की आहट - नुक्कड़ नाटक प्रतियोगिता।"
+    "tagline": "समस्याओं पर दस्तक, समाधान की आहट"
   },
   {
     "id": 13,
@@ -318,7 +318,7 @@ export const eventsData = [
     "category": "Media & Reel Making",
     "eligibility": "Grades IX - XII",
     "type": "Group",
-    "description": "This competition challenges young creators to use their editing skills, cameras, and unique perspectives to craft engaging reels that leave a lasting impression.",
+    "description": "Got a story to tell in 60 seconds? This competition challenges young creators to use their editing skills, cameras, and unique perspectives to craft engaging reels that leave a lasting impression.",
     "guidelines": [
       "Eligibility: Grades IX to XII",
       "Event Type: Group Event (1 team per school, 4 participants)",
@@ -332,7 +332,7 @@ export const eventsData = [
       "name": "Ms. Anusha Shanmughom / Ms. Gisha",
       "phone": "9686299867"
     },
-    "tagline": "Create. Capture. Inspire. Got a story to tell in 60 seconds?"
+    "tagline": "Create. Capture. Inspire."
   },
   {
     "id": 15,
@@ -355,7 +355,7 @@ export const eventsData = [
       "name": "Ms. Hena Ahmad",
       "phone": "7406886272"
     },
-    "tagline": "Veritas v. Verdict - Where Precedence Meets Precision."
+    "tagline": "Where Precedence Meets Precision."
   },
   {
     "id": 16,
@@ -387,7 +387,7 @@ export const eventsData = [
     "category": "Social Science & Psychology",
     "eligibility": "Grades IX – XII",
     "type": "Group",
-    "description": "Beyond every action lies a mind waiting to be decoded. Explore the psychology of complex fictional characters by analyzing personality traits, hidden motives, and behaviors.",
+    "description": "Every mind has a story worth understanding. Beyond every action lies a mind waiting to be decoded. Explore the psychology of complex fictional characters by analyzing personality traits, hidden motives, and behaviors.",
     "guidelines": [
       "Eligibility: Grades IX–XII",
       "Event Type: Group event (2–3 participants per team)",
@@ -400,7 +400,7 @@ export const eventsData = [
       "name": "Ms. Divya P",
       "phone": "8086829569"
     },
-    "tagline": "Mind Over Motive. Every mind has a story worth understanding."
+    "tagline": "Mind Over Motive."
   },
   {
     "id": 18,
@@ -410,7 +410,7 @@ export const eventsData = [
     "category": "Computer Coding",
     "eligibility": "Grades IX – XII",
     "type": "Group",
-    "description": "EarthOS challenges participants to build technology-driven solutions for a sustainable future. Develop mini-apps, simulations, or games that inspire green choices.",
+    "description": "Where code meets conscience. EarthOS challenges participants to build technology-driven solutions for a sustainable future. Develop mini-apps, simulations, or games that inspire green choices.",
     "guidelines": [
       "Eligibility: Grades IX–XII",
       "Event Type: Team Event (1 team per school, 2 participants)",
@@ -423,7 +423,7 @@ export const eventsData = [
       "name": "Ms. Devika N",
       "phone": "9886350455"
     },
-    "tagline": "Fresh Code for a Greener Tomorrow. Where code meets conscience."
+    "tagline": "Fresh Code for a Greener Tomorrow."
   },
   {
     "id": 19,
