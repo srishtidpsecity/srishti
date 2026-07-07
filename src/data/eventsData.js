@@ -108,7 +108,7 @@ export const eventsData = [
     "category": "Patriotic Music Fusion",
     "eligibility": "Grades IX-XII",
     "type": "Group",
-    "description": "Feel the beat of patriotism come alive! Calling all music enthusiasts to feature a vibrant fusion of Hindi and English music inspired by the spirit of the Indian tricolour (Saffron, White, Green) in a performance bursting with energy.",
+    "description": "Feel the beat of patriotism come alive! Calling all music enthusiasts to feature a vibrant fusion of Hindi and English music inspired by the spirit of the Indian tricolour — Saffron for courage, White for peace, and Green for prosperity — in a performance bursting with energy.",
     "guidelines": [
       "Eligibility: Grades IX-XII",
       "Event Type: Group event (1 team per school)",
@@ -138,8 +138,9 @@ export const eventsData = [
       "Event Type: Individual event (Two participants per school)",
       "Theme: Blooming Wilderness / Animal in Seasons",
       "Time duration: 120 minutes",
+      "Language: Visual expression only",
       "Task: Create an original wildlife artwork inspired by nature. Participants may combine realistic animal drawing with imaginative elements (flowers, textures, torn-paper, layered backgrounds) to enhance visual storytelling.",
-      "Requirements: A3 drawing sheet provided by host. All color mediums allowed. No tracing, printed references, stencils, or rulers. No text or slogans inside the artwork."
+      "Requirements: \n\t❖ A3 drawing sheet provided by host. \n\t❖ All color mediums allowed. \n\t❖ No tracing, printed references, stencils, or rulers. \n\t❖ No text or slogans inside the artwork."
     ],
     "coordinator": {
       "name": "Mr. Manjunath H Kale",
@@ -155,7 +156,7 @@ export const eventsData = [
     "category": "Literature & Comic Art",
     "eligibility": "Grades VI – VIII",
     "type": "Group",
-    "description": "Unleash your imagination and bring your stories to life through the exciting world of comic art! Create engaging characters, vibrant scenes, and powerful messages through a series of illustrated panels.",
+    "description": "Unleash your imagination and bring your stories to life through the exciting world of comic art! Create engaging characters, vibrant scenes, and powerful messages through a series of illustrated panels.Let your creativity shine as you weave a story that entertains, inspires, and captivates your audience.",
     "guidelines": [
       "Eligibility: Grades VI – VIII",
       "Event Type: Group Event (1 team per school, 2 participants)",
@@ -201,14 +202,15 @@ export const eventsData = [
     "category": "Fine Arts & Design",
     "eligibility": "Grades IX-XII",
     "type": "Group",
-    "description": "More than patterns, it is poetry in henna. Watch tradition unfold through delicate lines and intricate artistry as every palm becomes a masterpiece of grace, culture, and timeless beauty.",
+    "description": "More than patterns, it is poetry in henna. Let tradition unfold through delicate lines and intricate artistry as every palm becomes a masterpiece of grace, culture, and timeless beauty.",
     "guidelines": [
       "Eligibility: Grades IX-XII",
       "Event Type: Group Event (One designer and one partner model, max 2 entries per school)",
       "Theme: Traditional Indian or Rajasthani",
       "Time duration: 45 minutes",
-      "Task: Create original, freehand mehndi designs on the palm of the partner. Henna stencils are strictly prohibited.",
-      "Requirements: Participants must bring all their own henna cones and accessories."
+      "Task: Create original, freehand mehndi designs on the palm of the partner. Mehendi stencils are strictly prohibited.",
+      "Requirements: Participants must bring all the materials according to their requirement.",
+      "Language: NIL"
     ],
     "coordinator": {
       "name": "Ms. Madhumita Sarkar",
@@ -224,19 +226,21 @@ export const eventsData = [
     "category": "Fashion Runway Design",
     "eligibility": "Grades IX-XII",
     "type": "Group",
-    "description": "Fashion is identity in motion. Vogue Vista is a runway celebration where participants command the catwalk with confidence, displaying bold fashion narratives inspired by evolving trends, sustainability, and futuristic concepts.",
+    "description": "Fashion is identity in motion. Vogue Vista is a runway celebration where participants command the catwalk with confidence, displaying bold fashion narratives inspired by evolving trends and cultural influences.",
     "guidelines": [
       "Eligibility: Grades IX-XII",
       "Event Type: Team event (6-10 participants per school)",
       "The team should have at least one representative from each of the suggested grades.",
       "Theme: Futuristic attire with a touch of tradition. Blends innovation, sustainability, technology, and evolving cultural identities.",
       "Time duration: 5 minutes total (1 min introduction, 1 min setup, 3 min ramp performance).",
+      "Participants must adhere to the suggested time limit.",
       "Props are allowed but not mandatory.",
-      "Vulgarity or obscenity in attire, moves, or lyrics will lead to immediate disqualification."
+      "Vulgarity or obscenity in attire, moves, or lyrics will lead to immediate disqualification.",
+      "Language: English"
     ],
     "coordinator": {
       "name": "Ms. Akansha Poddar / Ms. Sowjanya",
-      "phone": "9873592435"
+      "phone": "9873592435 / 7207285659"
     },
     "tagline": "Where Style Meets Creativity."
   },
@@ -257,7 +261,7 @@ export const eventsData = [
       "Time duration: 8–10 minutes",
       "Language: English only",
       "Task: Perform an original script that reimagines a well-known literary character by exploring hidden motivations, moral dilemmas, and alternative perspectives.",
-      "Requirements: Minimal, portable props. Costumes and sound effects are permitted. Content must be suitable for a school audience."
+      "Requirements: \n\t❖ The script must be original and developed specifically for the event. \n\t❖ Teams may reinterpret the chosen character(s) creatively but must preserve the \n\tessence of the original work. \n\t❖ Performances should demonstrate literary understanding, creativity, and critical \n\tthinking. \n\t❖ Minimal, portable props. \n\t❖ Costumes and sound effects are permitted. \n\t❖ Content must be suitable for a school audience."
     ],
     "coordinator": {
       "name": "Ms. Jiji Ranganathan / Ms. Neha Singh",
@@ -300,10 +304,11 @@ export const eventsData = [
     "guidelines": [
       "Eligibility: Grades IX-XII",
       "Event Type: Team Event (6-8 participants per team)",
-      "Theme: Contemporary Issues / Mental Health / Balancing Technology and Real Connections / Online Validation",
+      "Theme: Contemporary Issues / Mental Health / Balancing Technology and Real Connections / Online Validation and the need for likes, shares, and subscriptions.",
       "Time duration: 2 minutes setup + 4 minutes performance",
       "Task: Present a mime act using gestures and expressions without any dialogue.",
-      "Requirements: Simple costumes, placards, masks, and minimal props allowed. Background music and sound effects permitted. No hazardous or liquid materials."
+      "Requirements: Simple costumes, placards, masks, and minimal props allowed. Background music and sound effects permitted. Use of hazardous, liquid materials, fire or sharp objects is prohibited",
+      "Language: No verbal communication is allowed during the performance."
     ],
     "coordinator": {
       "name": "Ms. Kamya Thareja / Ms. Anandita",
@@ -323,7 +328,7 @@ export const eventsData = [
     "guidelines": [
       "Eligibility: Grades IX to XII",
       "Event Type: Group Event (1 team per school, 4 participants)",
-      "Theme: Freedom Through My Lens - Capture patriotism, responsibility, and India's future.",
+      "Theme: Freedom Through My Lens -Freedom is not merely seen—it is felt, lived, and imagined. Capture its essence through a 60-second reel that reflects your vision of patriotism, unity, responsibility, and the dreams you hold for India. One lens. Infinite perspectives.",
       "Time duration: 1 hour 30 minutes total (capturing and editing on campus)",
       "Task: Craft an original 60-90 second vertical (9:16) reel using a smartphone only.",
       "Requirements: Bring one smartphone and one laptop per team. Basic editing only (cuts, transitions, text, music). No pre-made templates or excessive AI filters.",
@@ -349,7 +354,7 @@ export const eventsData = [
       "Event Type: Team Event (2 to 3 members per team)",
       "Theme: Formal Attire",
       "Time duration: 7 minutes per round",
-      "Round 1: Case study released at 8:00 PM the night prior. Round 2: Surprise case study on the spot.",
+      "Round 1: Case study released at 8:00 PM the night prior. Round 2: Two winning teams from Round 1 will be eligible. The Case Study will be given on the day of the event.",
       "Requirements: Good knowledge of the Indian Legal System and codified laws. No AI tools permitted."
     ],
     "coordinator": {
@@ -411,7 +416,7 @@ export const eventsData = [
     "category": "Computer Coding",
     "eligibility": "Grades IX – XII",
     "type": "Group",
-    "description": "Where code meets conscience. EarthOS challenges participants to build technology-driven solutions for a sustainable future. Develop mini-apps, simulations, or games that inspire green choices.",
+    "description": "Where code meets conscience. Byte Craft challenges participants to transform innovation into impact by building technology-driven solutions for a sustainable future. Through interactive apps, simulations, or games, teams will turn ideas into digital experiences that inspire greener choices and meaningful change.",
     "guidelines": [
       "Eligibility: Grades IX–XII",
       "Event Type: Team Event (1 team per school, 2 participants)",
