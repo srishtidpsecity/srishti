@@ -42,7 +42,7 @@ export default function Registration() {
     },
     {
       title: "Calculate & Pay",
-      desc: "Individual events are Rs. 300/- each; Group events are Rs. 750/- each. *Convenience charges and GST are applicable."
+      desc: "Individual events are Rs. 300/- each; Group events are Rs. 750/- each.\n✶ Convenience charges and GST are applicable."
     }
   ];
 
@@ -79,10 +79,10 @@ export default function Registration() {
                       {idx + 1}
                     </div>
                     <div>
-                      <h4 className="font-cinzel text-sm font-semibold text-[#fff] tracking-wide">
+                      <h4 className="font-cinzel text-sm font-semibold text-[#fff] tracking-wide whitespace-pre-wrap">
                         {step.title}
                       </h4>
-                      <p className="font-raleway text-xs text-white mt-1 leading-relaxed">
+                      <p className="font-raleway text-xs text-white mt-1 leading-relaxed whitespace-pre-wrap">
                         {step.desc}
                       </p>
                     </div>
