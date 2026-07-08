@@ -68,13 +68,8 @@ export default function EventsSection() {
     const matchesCategory = selectedCategory === 'All' || mappedGroup === selectedCategory;
 
     const matchesGrade = selectedGrade === 'All' ||
-      (selectedGrade === 'VI' && event.eligibility.includes('VI')) ||
-      (selectedGrade === 'VII' && (event.eligibility.includes('VI') || event.eligibility.includes('VIII'))) ||
-      (selectedGrade === 'VIII' && (event.eligibility.includes('VI') || event.eligibility.includes('VIII'))) ||
-      (selectedGrade === 'IX' && (event.eligibility.includes('X') || event.eligibility.includes('IX'))) ||
-      (selectedGrade === 'X' && event.eligibility.includes('X')) ||
-      (selectedGrade === 'XI' && event.eligibility.includes('XI')) ||
-      (selectedGrade === 'XII' && event.eligibility.includes('XII'));
+      (selectedGrade === 'VI-VIII' && (event.eligibility.includes('VI') || event.eligibility.includes('VIII'))) ||
+      (selectedGrade === 'IX-XII' && (event.eligibility.includes('IX') || event.eligibility.includes('X') || event.eligibility.includes('XI') || event.eligibility.includes('XII')));
 
     return matchesSearch && matchesCategory && matchesGrade;
   });
@@ -126,7 +121,7 @@ export default function EventsSection() {
               <Filter className="w-4 h-4 text-[#00f3ff] shrink-0" />
               <span className="font-mono text-xs text-white uppercase whitespace-nowrap shrink-0">Grade:</span>
               <div className="flex flex-wrap gap-2 justify-end">
-                {['All', 'VI', 'VII', 'VIII', 'IX', 'X', 'XI', 'XII'].map((grade) => (
+                {['All', 'VI-VIII', 'IX-XII'].map((grade) => (
                   <button
                     key={grade}
                     onClick={() => setSelectedGrade(grade)}
@@ -135,7 +130,7 @@ export default function EventsSection() {
                       : 'border-[#e0ffff]/10 hover:border-[#00f3ff]/40 text-white hover:text-[#e0ffff]'
                       }`}
                   >
-                    {grade === 'All' ? 'All Grades' : `Grade ${grade}`}
+                    {grade === 'All' ? 'All Grades' : `Grades ${grade}`}
                   </button>
                 ))}
               </div>
