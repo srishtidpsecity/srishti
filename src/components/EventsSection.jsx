@@ -15,7 +15,6 @@ export default function EventsSection() {
   const categories = [
     'All',
     'Languages & Lit',
-    'Science',
     'Arts & Media',
     'Humanities & Business'
   ];
@@ -93,7 +92,7 @@ export default function EventsSection() {
             Explore Competitions
           </h2>
           <p className="font-garamond italic text-white text-sm md:text-base max-w-xl mx-auto">
-            Choose from 19 disciplines spanning languages, coding, law, performing arts, and design.
+            Choose from 19 events spanning languages, coding, law, performing arts, and design.
           </p>
           <div className="w-16 h-[1.5px] bg-[#00f3ff] mx-auto mt-4" />
         </div>
