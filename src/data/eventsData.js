@@ -131,7 +131,7 @@ export const eventsData = [
     "image": "./events/page_10_img_0.png",
     "eligibility": "Grades IX-XII",
     "type": "Individual",
-    "description": "Get ready to paint the wild with imagination!From fierce creatures to magical landscapes, participants will blend realism with artistic fantasy to craft vibrant wildlife artworks bursting with colour, texture, and wonder.",
+    "description": "Get ready to paint the wild with imagination! From fierce creatures to magical landscapes, participants will blend realism with artistic fantasy to craft vibrant wildlife artworks bursting with colour, texture, and wonder.",
     "guidelines": [
       "Eligibility: Grades IX-XII",
       "Event Type: Individual event (Two participants per school)",
@@ -155,7 +155,7 @@ export const eventsData = [
     "category": "Literature & Comic Art",
     "eligibility": "Grades VI – VIII",
     "type": "Group",
-    "description": "Unleash your imagination and bring your stories to life through the exciting world of comic art! Create engaging characters, vibrant scenes, and powerful messages through a series of illustrated panels.Let your creativity shine as you weave a story that entertains, inspires, and captivates your audience.",
+    "description": "Unleash your imagination and bring your stories to life through the exciting world of comic art! Create engaging characters, vibrant scenes, and powerful messages through a series of illustrated panels. Let your creativity shine as you weave a story that entertains, inspires, and captivates your audience.",
     "guidelines": [
       "Eligibility: Grades VI – VIII",
       "Event Type: Group Event (1 team per school, 2 participants)",
@@ -172,6 +172,33 @@ export const eventsData = [
   },
   {
     "id": 8,
+    "registrationLink": "https://forms.gle/dps-terra-tech",
+    "name": "TerraTech",
+    "image": "./events/page_35_img_0.png",
+    "category": "Computer Coding",
+    "eligibility": "Grades VI-VIII",
+    "type": "Group",
+    "description": "TerraTech is where coding and collaboration converge to create digital prototypes for a sustainable future. Design a block-coded app prototype that addresses ecological challenges.",
+    "guidelines": [
+      "Eligibility: Grades VI-VIII",
+      "Event Type: Team Event (1 team per school, 2 participants)",
+      "Duration: 2 Hours coding",
+      "Theme: Eco-Tech (energy saving, recycling, conservation, climate awareness)",
+      "Task: Participants must build a live mini-app, interactive simulation, or game that addresses an eco-friendly goal, such as:\n\t❖ Carbon Footprint Calculator \n\t❖ Recycling Sorter Game \n\t❖ Home Energy-Saving Tracker \n\t❖ Wildlife Conservation Awareness Tool \n\t❖ Climate Change Education App",
+      "Zero Prior Code: Teams are not allowed to bring any pre-written code, templates, libraries, or code snippets. Participants are not allowed to bring or use their own laptops. If any specific software/module is needed, please contact the teacher coordinator.",
+      "Programming Languages: Design an original app using MIT App Inventor.",
+      "Live Coding: The entire solution must be developed during the event duration.",
+      "Deliverables: Submit the final live-coded file.",
+      "Presentation: Deliver a brief 2-minute presentation on the chosen topic:\n\t❖ One team member should explain the environmental issue being addressed. \n\t❖ The other team member should present the proposed solution and demonstrate its features."
+    ],
+    "coordinator": {
+      "name": "Ms. Sangeeta Sahoo",
+      "phone": "8105977003"
+    },
+    "tagline": "Small Code Big Impact. Build. Code. Transform."
+  },
+  {
+    "id": 9,
     "registrationLink": "https://forms.gle/dps-chromatique",
     "name": "Chromatique",
     "image": "./events/page_14_img_0.jpeg",
@@ -182,7 +209,7 @@ export const eventsData = [
     "guidelines": [
       "Eligibility: Grades IX-XII",
       "Event Type: Group Event (One artist and one model per entry, max 2 entries per school)",
-      "Theme: Face painting depicting Peace / Carnival masks / Underwater Bioluminescent Creatures",
+      "Theme: Face painting depicting Peace / Carnival masks / Underwater bioluminescent creatures",
       "Time duration: 90 Minutes",
       "Task: Interpret the given theme through expressive face art, followed by a brief presentation explaining the concept.",
       "Requirements: Only skin-safe, non-toxic paints. No pre-drawn outlines or stencils. No mobile phones or reference books permitted during the event."
@@ -194,7 +221,7 @@ export const eventsData = [
     "tagline": "From Skin to Story, One Stroke at a Time."
   },
   {
-    "id": 9,
+    "id": 10,
     "registrationLink": "https://forms.gle/dps-riwaayat",
     "name": "Riwaayat",
     "image": "./events/page_16_img_0.png",
@@ -217,7 +244,7 @@ export const eventsData = [
     "tagline": "Tradition in Lines, Magic in Design."
   },
   {
-    "id": 10,
+    "id": 11,
     "registrationLink": "https://forms.gle/dps-vogue-vista",
     "name": "Vogue Vista",
     "image": "./events/page_17_img_0.jpeg",
@@ -243,7 +270,7 @@ export const eventsData = [
     "tagline": "Where Style Meets Creativity."
   },
   {
-    "id": 11,
+    "id": 12,
     "registrationLink": "https://forms.gle/dps-vox-altera",
     "name": "Vox Altera",
     "image": "./events/page_19_img_0.png",
@@ -268,14 +295,14 @@ export const eventsData = [
     "tagline": "Beyond the Story. Into the Perspective."
   },
   {
-    "id": 12,
+    "id": 13,
     "registrationLink": "https://forms.gle/dps-nukkad-natak",
     "name": "नुक्कड़ की दस्तक",
     "category": "Hindi Drama & Nukkad Natak",
     "eligibility": "Grades IX-XII",
     "image": "./events/page_21_img_0.jpeg",
     "type": "Group",
-    "description": "विषय: 'फ़ोन पर उंगली, ज़िंदगी फिसली: रील की लत, FOMO की पकड़, और हक़ीक़त से नाता टूटा' अथवा 'ऑनलाइन मुस्कान, डिजिटल रिश्ते, असली जिंदगी में फासले'।\nनुक्कड़ नाटक कला का एक स्थापित रूप है जो युवाओं के रचनात्मक कौशल को बढ़ावा देने और सामाजिक संदेश पहुँचाने के लिए मनोवैज्ञानिक सीमा को चुनौती देता है।",
+    "description": "विषय: 'फ़ोन पर उंगली, ज़िंदगी फिसली: रील की लत, FOMO की पकड़, और हक़ीक़त से नाता टूटा' अथवा 'ऑनलाइन मुस्कान, असली जिंदगी में फासले'।\nनुक्कड़ नाटक कला का एक स्थापित रूप है जो युवाओं के रचनात्मक कौशल को बढ़ावा देने और सामाजिक संदेश पहुँचाने के लिए मनोवैज्ञानिक सीमा को चुनौती देता है।",
     "guidelines": [
       "यह एक सामूहिक गतिविधि है, जिसमें 8-10 प्रतिनिधि भाग ले सकते हैं। प्रति विद्यालय एक ही प्रविष्टि (IX-XII)",
       "प्रत्येक कक्षा से कम से कम एक प्रतिभागी का होना अनिवार्य।",
@@ -291,7 +318,7 @@ export const eventsData = [
     "tagline": "समस्याओं पर दस्तक, समाधान की आहट"
   },
   {
-    "id": 13,
+    "id": 14,
     "registrationLink": "https://forms.gle/dps-el-silencio",
     "name": "El Silencio",
     "image": "./events/page_23_img_0.png",
@@ -315,7 +342,7 @@ export const eventsData = [
     "tagline": "Where Silence Finds Its Voice."
   },
   {
-    "id": 14,
+    "id": 15,
     "registrationLink": "https://forms.gle/dps-visio-vox",
     "name": "Visio Vox",
     "image": "./events/page_25_img_0.png",
@@ -339,7 +366,7 @@ export const eventsData = [
     "tagline": "Create. Capture. Inspire."
   },
   {
-    "id": 15,
+    "id": 16,
     "registrationLink": "https://forms.gle/dps-lex-ultima",
     "name": "Lex Ultima",
     "image": "./events/page_27_img_0.png",
@@ -353,7 +380,7 @@ export const eventsData = [
       "Theme: Formal Attire",
       "Time duration: 7 minutes per round",
       "Round 1: Case study released at 8:00 PM the night prior. Round 2: Two winning teams from Round 1 will be eligible. The Case Study will be given on the day of the event.",
-      "Requirements: Good knowledge of the Indian Legal System and codified laws. All research for Round 1 has to be completed beforehand. No extra preparation time will be given for Round 1.No AI tools permitted. Search engines may only be used during the rebuttal and the preparation for Round 2."
+      "Requirements: Good knowledge of the Indian Legal System and codified laws. All research for Round 1 has to be completed beforehand. No extra preparation time will be given for Round 1. No AI tools permitted. Search engines may only be used during the rebuttal and the preparation for Round 2."
     ],
     "coordinator": {
       "name": "Ms. Hena Ahmad",
@@ -362,7 +389,7 @@ export const eventsData = [
     "tagline": "Where Precedence Meets Precision."
   },
   {
-    "id": 16,
+    "id": 17,
     "registrationLink": "https://forms.gle/dps-hype-hustle",
     "name": "The Hype Hustle",
     "image": "./events/page_29_img_0.png",
@@ -373,7 +400,7 @@ export const eventsData = [
     "guidelines": [
       "Eligibility: Grades XI-XII",
       "Event Type: Group Event (1 team per school, 3-4 participants)",
-      "Time duration: Round 1 (Marketing): 5 minutes pitch; Round 2 (Sales): 7 minutes pitch.",
+      "Time duration: \n\tRound 1 (Marketing): 5 minutes pitch. \n\tRound 2 (Sales): 7 minutes pitch.",
       "Task: Round 1: Create a brand from scratch for a randomly assigned object (naming, positioning). Round 2: Pitch the brand to judges to secure sales.",
       "Requirements: One laptop and one hotspot phone allowed per team. All ideas, logos, taglines, and graphics must be created on-site. No AI usage.",
       "Language: English"
@@ -385,7 +412,7 @@ export const eventsData = [
     "tagline": "Brand it. Sell It. Own It."
   },
   {
-    "id": 17,
+    "id": 18,
     "registrationLink": "https://forms.gle/dps-persona-prism",
     "name": "Persona Prism",
     "image": "./events/page_31_img_0.png",
@@ -408,7 +435,7 @@ export const eventsData = [
     "tagline": "Mind Over Motive."
   },
   {
-    "id": 18,
+    "id": 19,
     "registrationLink": "https://forms.gle/dps-earth-os",
     "name": "EarthOS",
     "image": "./events/page_33_img_0.png",
@@ -430,32 +457,5 @@ export const eventsData = [
       "phone": "9886350455"
     },
     "tagline": "Fresh Code for a Greener Tomorrow."
-  },
-  {
-    "id": 19,
-    "registrationLink": "https://forms.gle/dps-terra-tech",
-    "name": "TerraTech",
-    "image": "./events/page_35_img_0.png",
-    "category": "Computer Coding",
-    "eligibility": "Grades VI-VIII",
-    "type": "Group",
-    "description": "TerraTech is where coding and collaboration converge to create digital prototypes for a sustainable future. Design a block-coded app prototype that addresses ecological challenges.",
-    "guidelines": [
-      "Eligibility: Grades VI-VIII",
-      "Event Type: Team Event (1 team per school, 2 participants)",
-      "Duration: 2 Hours coding",
-      "Theme: Eco-Tech (energy saving, recycling, conservation, climate awareness)",
-      "Task: Participants must build a live mini-app, interactive simulation, or game that addresses an eco-friendly goal, such as:\n\t❖ Carbon Footprint Calculator \n\t❖ Recycling Sorter Game \n\t❖ Home Energy-Saving Tracker \n\t❖ Wildlife Conservation Awareness Tool \n\t❖ Climate Change Education App",
-      "Zero Prior Code: Teams are not allowed to bring any pre-written code, templates, libraries, or code snippets. Participants are not allowed to bring or use their own laptops. If any specific software/module is needed, please contact the teacher coordinator.",
-      "Programming Languages: Design an original app using MIT App Inventor.",
-      "Live Coding: The entire solution must be developed during the event duration.",
-      "Deliverables: Submit the final live-coded file.",
-      "Presentation: Deliver a brief 2-minute presentation on the chosen topic:\n\t❖ One team member should explain the environmental issue being addressed. \n\t❖ The other team member should present the proposed solution and demonstrate its features."
-    ],
-    "coordinator": {
-      "name": "Ms. Sangeeta Sahoo",
-      "phone": "8105977003"
-    },
-    "tagline": "Small Code Big Impact. Build. Code. Transform."
   }
 ];
