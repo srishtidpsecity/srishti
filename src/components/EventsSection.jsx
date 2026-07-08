@@ -16,6 +16,7 @@ export default function EventsSection() {
     'All',
     'Languages & Lit',
     'Arts & Media',
+    'Coding',
     'Humanities & Business'
   ];
 
@@ -26,7 +27,7 @@ export default function EventsSection() {
       return 'Languages & Lit';
     }
     if (cat.includes('science') || cat.includes('math') || cat.includes('computer') || cat.includes('coding')) {
-      return 'Science & Math';
+      return 'Coding';
     }
     if (cat.includes('art') || cat.includes('music') || cat.includes('dance') || cat.includes('media') || cat.includes('fashion') || cat.includes('mime') || cat.includes('cooking')) {
       return 'Arts & Media';
@@ -41,7 +42,7 @@ export default function EventsSection() {
       case 'Languages & Lit':
         icon = <BookOpen className="w-5 h-5 text-cyan-400" />;
         break;
-      case 'Science & Math':
+      case 'Coding':
         icon = <Cpu className="w-5 h-5 text-cyan-400" />;
         break;
       case 'Arts & Media':

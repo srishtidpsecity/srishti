@@ -2,6 +2,127 @@
 export const eventsData = [
   {
     "id": 1,
+    "registrationLink": "https://forms.gle/dps-goonj",
+    "name": "Goonj",
+    "image": "./events/page_5_img_0.png",
+    "category": "Folk Music Fusion",
+    "eligibility": "Grades VI-VIII",
+    "type": "Group",
+    "description": "Let your voice echo across cultures. Participants will blend authentic folk music from two or more Indian states into one powerful performance, where distinct melodies and rhythms come together in perfect harmony.",
+    "guidelines": [
+      "Eligibility: Grades VI-VIII",
+      "Event Type: Group Event (1 team per school)",
+      "No of participants: 6-7 participants per team",
+      "Time duration: Stage Setup– 2 minutes + Duration of the song –3 minutes",
+      "Requirements: The participants must perform, either by playing their own instrument or using a karaoke track; however, in either case, the participants have to make relevant arrangements on their own. The host school shall provide no instruments.",
+      "If karaoke is used, only speakers for playing the music will be available. The song has to be brought in a well-labelled pen drive (the name of the school should be mentioned)",
+      "Language: Songs must be presented in the original regional languages of the chosen states."
+    ],
+    "coordinator": {
+      "name": "Ms. Bhawna Rawat",
+      "phone": "9901622924"
+    },
+    "tagline": "Echoes of Tradition, Woven in Rhythm"
+  },
+  {
+    "id": 2,
+    "registrationLink": "https://forms.gle/dps-savor",
+    "name": "Savor",
+    "image": "./events/page_6_img_0.png",
+    "category": "Cooking Without Fire",
+    "eligibility": "Grades VI - VIII",
+    "type": "Group",
+    "description": "Who says great food needs fire? SAVOR challenges participants to craft delicious, creative dishes using uncooked ingredients and maximum imagination. From plating to flavour, every element should impress.",
+    "guidelines": [
+      "Eligibility: Grades VI - VIII",
+      "Event Type: Group event (2 participants per team and 2 teams per school)",
+      "Theme: Multi-cuisine fusion",
+      "Time duration: 40 minutes",
+      "Task: Use only uncooked ingredients, assemble, garnish and serve",
+      "Requirements: As needed for the recipe"
+    ],
+    "coordinator": {
+      "name": "Ms. Kavita Arora / Ms. Aparna",
+      "phone": "9772153109 / 9538200091"
+    },
+    "tagline": "No Flame, All Flair!!"
+  },
+  {
+    "id": 3,
+    "registrationLink": "https://forms.gle/dps-echo-canvas",
+    "name": "Echo Canvas",
+    "image": "./events/echo_canvas_new.jpeg",
+    "category": "Fine Arts & Design",
+    "eligibility": "Grades VI – VIII",
+    "type": "Group",
+    "description": "Can you create magic without seeing the whole picture? In this exciting challenge, teamwork meets creativity as two participants build one artwork—without communication and without knowing the full canvas. The final reveal promises surprises, imagination, and brilliance.",
+    "guidelines": [
+      "Eligibility: Grades VI – VIII",
+      "Event Type: Group event (1 team per school with 2 participants)",
+      "Theme: Theme will be announced on the spot (e.g. School Without Walls, Hidden Superpower, One Earth, Future Classroom)",
+      "Time duration: 105 minutes total (Round 1: 45 min, Viewing: 5 min, Round 2: 45 min, Title: 10 min)",
+      "Task: \n\t❖Student A begins the artwork based on the given theme. \n\t❖No Communication: Team members cannot talk, text, or leave notes for each \n\t\tother.\n\t❖The Waiting Room: Artist B must remain in a separate room while Artist A is \n\tdrawing.\n\t❖The Handover: Artist A leaves the room before Artist B enters.\n\t❖The Silent Study: Artist B gets 5 minutes to look at the canvas before they start \n\tdrawing.\n\t❖No Do-Overs: Artist B cannot erase or paint over Artist A’s work completely; they \n\tmust build upon it.",
+      "Language: Visual expression only (Title submission in English)",
+      "Requirements: \n\t❖One A3 drawing sheet provided by host. \n\t❖Pencils and dry colors only (crayons/color pencils). \n\t❖No words, numbers, or symbols inside the artwork. \n\t❖Must use at least 50% of the page."
+    ],
+    "coordinator": {
+      "name": "Ms. Prasanna Bathula",
+      "phone": "7259573891"
+    },
+    "tagline": "Two Artists. One Canvas. Zero Words."
+  },
+  {
+    "id": 4,
+    "registrationLink": "https://forms.gle/dps-fumetto-fusion",
+    "name": "Fumetto Fusion",
+    "image": "./events/page_12_img_0.png",
+    "category": "Literature & Comic Art",
+    "eligibility": "Grades VI – VIII",
+    "type": "Group",
+    "description": "Unleash your imagination and bring your stories to life through the exciting world of comic art! Create engaging characters, vibrant scenes, and powerful messages through a series of illustrated panels. Let your creativity shine as you weave a story that entertains, inspires, and captivates your audience.",
+    "guidelines": [
+      "Eligibility: Grades VI – VIII",
+      "Event Type: Group Event (1 team per school, 2 participants)",
+      "Theme: A Better Tomorrow",
+      "Time duration: 90 Minutes",
+      "Task: Participants must collaboratively create an original hand-drawn comic strip consisting of 6–8 panels based on the given theme, with a suitable title. No printed images, stickers, or digital aids allowed.",
+      "Requirements: Bring your own drawing and coloring materials. A3 sheets will be provided by the host school."
+    ],
+    "coordinator": {
+      "name": "Ms. Nimisha Nisha / Ms. Lakshmipriya A S",
+      "phone": "9886833795 / 9496688577"
+    },
+    "tagline": "Frames that Speak, Stories that Inspire!"
+  },
+  {
+    "id": 5,
+    "registrationLink": "https://forms.gle/dps-terra-tech",
+    "name": "TerraTech",
+    "image": "./events/page_35_img_0.png",
+    "category": "Computer Coding",
+    "eligibility": "Grades VI-VIII",
+    "type": "Group",
+    "description": "TerraTech is where coding and collaboration converge to create digital prototypes for a sustainable future. Design a block-coded app prototype that addresses ecological challenges.",
+    "guidelines": [
+      "Eligibility: Grades VI-VIII",
+      "Event Type: Team Event (1 team per school, 2 participants)",
+      "Duration: 2 Hours coding",
+      "Theme: Eco-Tech (energy saving, recycling, conservation, climate awareness)",
+      "Task: Participants must build a live mini-app, interactive simulation, or game that addresses an eco-friendly goal, such as:\n\t❖ Carbon Footprint Calculator \n\t❖ Recycling Sorter Game \n\t❖ Home Energy-Saving Tracker \n\t❖ Wildlife Conservation Awareness Tool \n\t❖ Climate Change Education App",
+      "Zero Prior Code: Teams are not allowed to bring any pre-written code, templates, libraries, or code snippets. Participants are not allowed to bring or use their own laptops. If any specific software/module is needed, please contact the teacher coordinator.",
+      "Programming Languages: Design an original app using MIT App Inventor.",
+      "Live Coding: The entire solution must be developed during the event duration.",
+      "Deliverables: Submit the final live-coded file.",
+      "Presentation: Deliver a brief 2-minute presentation on the chosen topic:\n\t❖ One team member should explain the environmental issue being addressed. \n\t❖ The other team member should present the proposed solution and demonstrate its features."
+    ],
+    "coordinator": {
+      "name": "Ms. Sangeeta Sahoo",
+      "phone": "8105977003"
+    },
+    "tagline": "Small Code Big Impact. Build. Code. Transform."
+  },
+  {
+    "id": 6,
     "registrationLink": "https://forms.gle/dps-nritya-samanvaya",
     "name": "Samanvaya",
     "image": "./events/page_3_img_0.png",
@@ -29,78 +150,7 @@ export const eventsData = [
     "tagline": "Uniting Regional Rhythms"
   },
   {
-    "id": 2,
-    "registrationLink": "https://forms.gle/dps-goonj",
-    "name": "Goonj",
-    "image": "./events/page_5_img_0.png",
-    "category": "Folk Music Fusion",
-    "eligibility": "Grades VI-VIII",
-    "type": "Group",
-    "description": "Let your voice echo across cultures. Participants will blend authentic folk music from two or more Indian states into one powerful performance, where distinct melodies and rhythms come together in perfect harmony.",
-    "guidelines": [
-      "Eligibility: Grades VI-VIII",
-      "Event Type: Group Event (1 team per school)",
-      "No of participants: 6-7 participants per team",
-      "Time duration: Stage Setup– 2 minutes + Duration of the song –3 minutes",
-      "Requirements: The participants must perform, either by playing their own instrument or using a karaoke track; however, in either case, the participants have to make relevant arrangements on their own. The host school shall provide no instruments.",
-      "If karaoke is used, only speakers for playing the music will be available. The song has to be brought in a well-labelled pen drive (the name of the school should be mentioned)",
-      "Language: Songs must be presented in the original regional languages of the chosen states."
-    ],
-    "coordinator": {
-      "name": "Ms. Bhawna Rawat",
-      "phone": "9901622924"
-    },
-    "tagline": "Echoes of Tradition, Woven in Rhythm"
-  },
-  {
-    "id": 3,
-    "registrationLink": "https://forms.gle/dps-savor",
-    "name": "Savor",
-    "image": "./events/page_6_img_0.png",
-    "category": "Cooking Without Fire",
-    "eligibility": "Grades VI - VIII",
-    "type": "Group",
-    "description": "Who says great food needs fire? SAVOR challenges participants to craft delicious, creative dishes using uncooked ingredients and maximum imagination. From plating to flavour, every element should impress.",
-    "guidelines": [
-      "Eligibility: Grades VI - VIII",
-      "Event Type: Group event (2 participants per team and 2 teams per school)",
-      "Theme: Multi-cuisine fusion",
-      "Time duration: 40 minutes",
-      "Task: Use only uncooked ingredients, assemble, garnish and serve",
-      "Requirements: As needed for the recipe"
-    ],
-    "coordinator": {
-      "name": "Ms. Kavita Arora / Ms. Aparna",
-      "phone": "9772153109 / 9538200091"
-    },
-    "tagline": "No Flame, All Flair!!"
-  },
-  {
-    "id": 4,
-    "registrationLink": "https://forms.gle/dps-echo-canvas",
-    "name": "Echo Canvas",
-    "image": "./events/echo_canvas_new.jpeg",
-    "category": "Fine Arts & Design",
-    "eligibility": "Grades VI – VIII",
-    "type": "Group",
-    "description": "Can you create magic without seeing the whole picture? In this exciting challenge, teamwork meets creativity as two participants build one artwork—without communication and without knowing the full canvas. The final reveal promises surprises, imagination, and brilliance.",
-    "guidelines": [
-      "Eligibility: Grades VI – VIII",
-      "Event Type: Group event (1 team per school with 2 participants)",
-      "Theme: Theme will be announced on the spot (e.g. School Without Walls, Hidden Superpower, One Earth, Future Classroom)",
-      "Time duration: 105 minutes total (Round 1: 45 min, Viewing: 5 min, Round 2: 45 min, Title: 10 min)",
-      "Task: \n\t❖Student A begins the artwork based on the given theme. \n\t❖No Communication: Team members cannot talk, text, or leave notes for each \n\t\tother.\n\t❖The Waiting Room: Artist B must remain in a separate room while Artist A is \n\tdrawing.\n\t❖The Handover: Artist A leaves the room before Artist B enters.\n\t❖The Silent Study: Artist B gets 5 minutes to look at the canvas before they start \n\tdrawing.\n\t❖No Do-Overs: Artist B cannot erase or paint over Artist A’s work completely; they \n\tmust build upon it.",
-      "Language: Visual expression only (Title submission in English)",
-      "Requirements: \n\t❖One A3 drawing sheet provided by host. \n\t❖Pencils and dry colors only (crayons/color pencils). \n\t❖No words, numbers, or symbols inside the artwork. \n\t❖Must use at least 50% of the page."
-    ],
-    "coordinator": {
-      "name": "Ms. Prasanna Bathula",
-      "phone": "7259573891"
-    },
-    "tagline": "Two Artists. One Canvas. Zero Words."
-  },
-  {
-    "id": 5,
+    "id": 7,
     "registrationLink": "https://forms.gle/dps-crescendo-tricolore",
     "name": "Crescendo Tricolore",
     "image": "./events/page_9_img_0.png",
@@ -124,7 +174,7 @@ export const eventsData = [
     "tagline": "Three Colours. One Rhythm."
   },
   {
-    "id": 6,
+    "id": 8,
     "registrationLink": "https://forms.gle/dps-wild-canvas",
     "name": "Wild Canvas – Beyond Nature",
     "category": "Fine Arts & Design",
@@ -146,56 +196,6 @@ export const eventsData = [
       "phone": "9964288332"
     },
     "tagline": "Draw the Wild. Imagine the Impossible."
-  },
-  {
-    "id": 7,
-    "registrationLink": "https://forms.gle/dps-fumetto-fusion",
-    "name": "Fumetto Fusion",
-    "image": "./events/page_12_img_0.png",
-    "category": "Literature & Comic Art",
-    "eligibility": "Grades VI – VIII",
-    "type": "Group",
-    "description": "Unleash your imagination and bring your stories to life through the exciting world of comic art! Create engaging characters, vibrant scenes, and powerful messages through a series of illustrated panels. Let your creativity shine as you weave a story that entertains, inspires, and captivates your audience.",
-    "guidelines": [
-      "Eligibility: Grades VI – VIII",
-      "Event Type: Group Event (1 team per school, 2 participants)",
-      "Theme: A Better Tomorrow",
-      "Time duration: 90 Minutes",
-      "Task: Participants must collaboratively create an original hand-drawn comic strip consisting of 6–8 panels based on the given theme, with a suitable title. No printed images, stickers, or digital aids allowed.",
-      "Requirements: Bring your own drawing and coloring materials. A3 sheets will be provided by the host school."
-    ],
-    "coordinator": {
-      "name": "Ms. Nimisha Nisha / Ms. Lakshmipriya A S",
-      "phone": "9886833795 / 9496688577"
-    },
-    "tagline": "Frames that Speak, Stories that Inspire!"
-  },
-  {
-    "id": 8,
-    "registrationLink": "https://forms.gle/dps-terra-tech",
-    "name": "TerraTech",
-    "image": "./events/page_35_img_0.png",
-    "category": "Computer Coding",
-    "eligibility": "Grades VI-VIII",
-    "type": "Group",
-    "description": "TerraTech is where coding and collaboration converge to create digital prototypes for a sustainable future. Design a block-coded app prototype that addresses ecological challenges.",
-    "guidelines": [
-      "Eligibility: Grades VI-VIII",
-      "Event Type: Team Event (1 team per school, 2 participants)",
-      "Duration: 2 Hours coding",
-      "Theme: Eco-Tech (energy saving, recycling, conservation, climate awareness)",
-      "Task: Participants must build a live mini-app, interactive simulation, or game that addresses an eco-friendly goal, such as:\n\t❖ Carbon Footprint Calculator \n\t❖ Recycling Sorter Game \n\t❖ Home Energy-Saving Tracker \n\t❖ Wildlife Conservation Awareness Tool \n\t❖ Climate Change Education App",
-      "Zero Prior Code: Teams are not allowed to bring any pre-written code, templates, libraries, or code snippets. Participants are not allowed to bring or use their own laptops. If any specific software/module is needed, please contact the teacher coordinator.",
-      "Programming Languages: Design an original app using MIT App Inventor.",
-      "Live Coding: The entire solution must be developed during the event duration.",
-      "Deliverables: Submit the final live-coded file.",
-      "Presentation: Deliver a brief 2-minute presentation on the chosen topic:\n\t❖ One team member should explain the environmental issue being addressed. \n\t❖ The other team member should present the proposed solution and demonstrate its features."
-    ],
-    "coordinator": {
-      "name": "Ms. Sangeeta Sahoo",
-      "phone": "8105977003"
-    },
-    "tagline": "Small Code Big Impact. Build. Code. Transform."
   },
   {
     "id": 9,
@@ -416,7 +416,7 @@ export const eventsData = [
     "registrationLink": "https://forms.gle/dps-persona-prism",
     "name": "Persona Prism",
     "image": "./events/page_31_img_0.png",
-    "category": "Social Science & Psychology",
+    "category": "Languages & Lit",
     "eligibility": "Grades IX – XII",
     "type": "Group",
     "description": "Every mind has a story worth understanding. Beyond every action lies a mind waiting to be decoded. Explore the psychology of complex fictional characters by analyzing personality traits, hidden motives, and behaviors.",
