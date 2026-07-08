@@ -188,7 +188,7 @@ export const eventsData = [
       "Theme: Blooming Wilderness / Animal in Seasons",
       "Time duration: 120 minutes",
       "Language: Visual expression only",
-      "Task: Create an original wildlife artwork inspired by nature. Participants may combine realistic animal drawing with imaginative elements (flowers, textures, torn-paper, layered backgrounds) to enhance visual storytelling.",
+      "Task: Create an original wildlife artwork inspired by nature. Participants may combine realistic drawing of an animal with imaginative elements (flowers, textures, torn-paper, layered backgrounds) to enhance visual storytelling.",
       "Requirements: \n\t❖ A3 drawing sheet provided by host. \n\t❖ All color mediums allowed. \n\t❖ No tracing, printed references, stencils, or rulers. \n\t❖ No text or slogans inside the artwork."
     ],
     "coordinator": {
