@@ -42,7 +42,7 @@ export default function Registration() {
     },
     {
       title: "Calculate & Pay",
-      desc: "Individual events are Rs. 300/- each; Group events are Rs. 750/- each."
+      desc: "Individual events are Rs. 300/- each; Group events are Rs. 750/- each. *Convenience charges and GST are applicable."
     }
   ];
 
