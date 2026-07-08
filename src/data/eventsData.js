@@ -258,7 +258,7 @@ export const eventsData = [
       "Theme: Bring a Shakespearean classic scene to life through a modern reinterpretation.",
       "Time duration: 8–10 minutes",
       "Language: English only",
-      "Task: Create and perform an original script that reimagines a well-known literary character by exploring hidden motivations, moral dilemmas, and alternative perspectives.",
+      "Task: Create and perform an original skit that reimagines a well-known literary character by exploring hidden motivations, moral dilemmas, and alternative perspectives.",
       "Requirements: \n\t❖ The script must be original and developed specifically for the event. \n\t❖ Teams may reinterpret the chosen character(s) creatively but must preserve the \n\tessence of the original work. \n\t❖ Performances should demonstrate literary understanding, creativity, and critical \n\tthinking. \n\t❖ Minimal, portable props. \n\t❖ Costumes and sound effects are permitted. \n\t❖ Content must be suitable for a school audience."
     ],
     "coordinator": {
