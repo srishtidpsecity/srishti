@@ -400,7 +400,7 @@ export const eventsData = [
     "guidelines": [
       "Eligibility: Grades XI-XII",
       "Event Type: Group Event (1 team per school, 3-4 participants)",
-      "Time duration: \n\tRound 1 (Marketing): 5 minutes pitch. \n\tRound 2 (Sales): 7 minutes pitch.",
+      "Time duration: \n\tRound 1 - Marketing: 5 minutes pitch. \n\tRound 2 - Sales: 7 minutes pitch.",
       "Task: Round 1: Create a brand from scratch for a randomly assigned object (naming, positioning). Round 2: Pitch the brand to judges to secure sales.",
       "Requirements: One laptop and one hotspot phone allowed per team. All ideas, logos, taglines, and graphics must be created on-site. No AI usage.",
       "Language: English"
