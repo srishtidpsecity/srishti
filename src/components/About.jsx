@@ -2,6 +2,7 @@ import React from 'react';
 import { motion } from 'framer-motion';
 import { Info, HelpCircle, ShieldAlert, Users, Award } from 'lucide-react';
 import FloatingWrapper from './FloatingWrapper';
+import principalImg from '../assets/principal.jpg';
 
 export default function About() {
   const containerVariants = {
@@ -84,16 +85,26 @@ export default function About() {
               <p>With anticipation and excitement, we look forward to an overwhelming response.</p>
             </div>
 
-            <div className="pt-4 border-t border-[#00f3ff]/10">
-              <h6 className="font-cinzel font-semibold text-[#fff]">
-                Warm Regards,
-              </h6>
-              <h4 className="font-cinzel text-lg font-semibold text-[#fff]">
-                Anupama Ramachandra
-              </h4>
-              <p className="font-mono text-xs uppercase tracking-wider text-[#00f3ff]">
-                Principal, DPS Electronic City
-              </p>
+            <div className="pt-6 border-t border-[#00f3ff]/10 flex flex-col sm:flex-row items-start sm:items-center gap-6">
+              <div className="relative group">
+                <div className="absolute -inset-0.5 bg-[#00f3ff] rounded-full blur opacity-20 group-hover:opacity-60 transition duration-300"></div>
+                <img 
+                  src={principalImg} 
+                  alt="Principal Anupama Ramachandra" 
+                  className="relative w-20 h-20 md:w-24 md:h-24 rounded-full border border-[#00f3ff]/30 object-cover shadow-[0_0_15px_rgba(0,243,255,0.15)] transition duration-300"
+                />
+              </div>
+              <div className="space-y-1">
+                <h6 className="font-cinzel text-sm font-semibold text-white/70">
+                  Warm Regards,
+                </h6>
+                <h4 className="font-cinzel text-xl font-bold text-[#fff] tracking-wide">
+                  Anupama Ramachandra
+                </h4>
+                <p className="font-mono text-xs uppercase tracking-widest text-[#00f3ff]">
+                  Principal, DPS Electronic City
+                </p>
+              </div>
             </div>
           </motion.div>
 

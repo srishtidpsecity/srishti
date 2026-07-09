@@ -1,5 +1,6 @@
 import React from 'react';
 import { Mail, Phone, MapPin, Sparkles, Navigation, Globe } from 'lucide-react';
+import { FaInstagram } from 'react-icons/fa';
 import dpsLogo from '../assets/dps_logo.png';
 
 export default function Footer() {
@@ -43,6 +44,12 @@ export default function Footer() {
                 dpsecity.com
               </a>
             </div>
+            <div className="flex items-center space-x-3">
+              <FaInstagram className="w-4 h-4 text-[#06b6d4] shrink-0" />
+              <a href="https://www.instagram.com/srishti.dpsecity/" target="_blank" rel="noopener noreferrer" className="hover:text-[#06b6d4] transition-colors underline">
+                srishti.dpsecity
+              </a>
+            </div>
           </div>
         </div>
 
@@ -68,8 +75,8 @@ export default function Footer() {
       </div>
 
       {/* Copyright branding details */}
-      <div className="container-width relative z-10 pt-8 flex flex-col md:flex-row justify-between items-center text-center gap-4 text-[10px] font-mono text-white">
-        <div className="text-center font-mono text-xs text-white">
+      <div className="container-width relative z-10 pt-8 flex flex-col md:flex-row justify-between items-center gap-4 text-xs font-mono text-white border-t border-[#e0ffff]/5">
+        <div className="text-center md:text-left">
           &copy; {new Date().getFullYear()} Delhi Public School Electronic City, Bengaluru. All Rights Reserved.
         </div>
       </div>
